@@ -1,0 +1,665 @@
+% =====================================================================
+% IEEE Journal LaTeX Template for AquaNet / Irrigation Water Quality Monitor
+% Generated for: camera-based water contamination detection manuscript
+% Style: IEEE journal / transactions style using IEEEtran.cls
+%
+% Upload this folder to Overleaf and compile main.tex.
+% Replace all TODO fields before submission.
+% =====================================================================
+
+\documentclass[journal]{IEEEtran}
+
+% -------------------------- Packages --------------------------
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{bm}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{makecell}
+\usepackage{siunitx}
+\usepackage[caption=false,font=footnotesize]{subfig}
+\usepackage{url}
+\usepackage{balance}
+
+% Hyperref is optional for IEEE submissions. Enable only if allowed by target journal.
+% \usepackage[hidelinks]{hyperref}
+
+% -------------------------- Helpers --------------------------
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\method}{AquaNet}
+\newcommand{\msrb}{MSRB}
+\newcommand{\csab}{CSAB}
+\newcommand{\dataset}{AquaNet Dataset}
+\newcommand{\placeholderfigure}[2]{%
+\begin{center}
+\fbox{\begin{minipage}[c][#1][c]{0.93\linewidth}
+\centering #2
+\end{minipage}}
+\end{center}
+}
+
+\begin{document}
+
+% -------------------------- Title and Author Block --------------------------
+\title{\method: An Attention-Guided Multi-Scale CNN for Camera-Based Irrigation Water Contamination Monitoring}
+
+\author{
+Vasundhra Dixit,
+Nihal Kumar,
+,
+
+\thanks{Nihal Kumar is with the Amity Centre for Artificial Intelligence, Amity University, Noida, India. E-mail: \todo{add official emails}.}
+\thanks{Vasundhra Dixit is with \todo{department/institute}.}
+\thanks{Manuscript received \todo{month day, year}; revised \todo{month day, year}.}
+}
+
+\markboth{IEEE Transactions/Journal Name,~Vol.~XX, No.~XX, Month~2026}%
+{\method: Camera-Based Irrigation Water Contamination Monitoring}
+
+\maketitle
+
+% -------------------------- Abstract and Keywords --------------------------
+\begin{abstract}
+This section will be written after completion of the full manuscript. It should summarize the irrigation-water contamination problem, the proposed \method{} architecture, the custom curated dataset, the experimental protocol, the main quantitative results, and the practical deployment value for canal-camera or farm-level water monitoring.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Attention, water contamination, irrigation water quality, canal camera, deep learning, multi-scale residual learning, cross spatial-channel attention, hierarchical classification, synthetic dataset, real-world dataset.
+\end{IEEEkeywords}
+
+% =====================================================================
+\section{Introduction}
+\label{sec:introduction}
+
+\textbf{Problem, application, and challenges.}
+Irrigation water directly affects crop health, soil quality, farmer decision-making, and the safety of downstream agricultural operations. In open canals, ponds, and farm-water channels, contamination can appear in many visual forms, including oil films, algae growth, floating debris, foam, turbidity, and ambiguous mixed conditions. Camera-based monitoring is attractive because it is low-cost, non-contact, scalable, and compatible with edge devices placed near canals or irrigation outlets. However, visual water contamination detection remains challenging because water appearance changes with illumination, reflections, camera angle, flow, weather, background clutter, seasonal variation, and class imbalance between clean and contaminated conditions. 
+
+\textbf{Current work and its limitations.}
+Existing water-quality monitoring studies can be broadly grouped into sensor-based physicochemical monitoring, traditional image-processing methods, and learning-based visual systems. Sensor-based methods can estimate parameters such as pH, TDS, electrical conductivity, temperature, dissolved oxygen, and turbidity, but they require calibration, maintenance, and physical contact with water. Traditional visual methods rely on handcrafted color, texture, thresholding, or segmentation rules and therefore struggle under uncontrolled canal-camera conditions. Recent deep-learning methods improve robustness but often depend on private datasets, binary labels only, heavy backbones, limited contamination-type reasoning, or lack a clear route toward practical farmer alerting and authority reporting workflows.
+
+\textbf{How this work handles these limitations.}
+To address these gaps, this work proposes \method{}, a compact attention-guided CNN designed specifically for camera-based irrigation water contamination monitoring. The model combines multi-scale residual feature extraction with cross spatial-channel attention and uses a hierarchical prediction strategy: one head predicts clean versus contaminated water, while a second head predicts the contamination type only for contaminated samples. This design allows the model to learn both the safety-level decision needed by farmers and the detailed contamination class needed for reporting and treatment recommendation.
+
+\textbf{What we did and the logic.}
+We curated a custom image dataset containing clean and contaminated water images collected from multiple sources, including public image repositories, frames extracted from online videos, and AI-generated samples for diversity. The contaminated category is organized into six types: oil, algae, turbid, debris, foam, and uncertain. The proposed pipeline first prepares and labels the dataset using visual inspection and vision-language-model-assisted descriptions, then trains \method{} using weighted sampling and hierarchical masked loss, and finally evaluates the system under synthetic, real, and fine-tuned real-data settings. The logic is to build a complete research pipeline that moves from dataset creation to model design, evaluation, ablation, qualitative analysis, and deployment-facing decision flow.
+
+\subsection{Contributions}
+\label{subsec:contributions}
+The main contributions of this paper are:
+\begin{enumerate}
+    \item We introduce \method{}, a custom CNN architecture for camera-based irrigation water contamination monitoring with multi-scale residual blocks and cross spatial-channel attention.
+    \item We formulate the task as hierarchical classification, where the binary head learns clean versus contaminated detection and the multi-class head learns contamination types using a masked loss over contaminated samples.
+    \item We curate the \dataset{}, containing clean water and six contamination types, with data drawn from Kaggle, Roboflow, video-frame extraction, and AI-generated image augmentation.
+    \item We design a complete experimental protocol covering synthetic-data training, real-data evaluation, real-data fine-tuning, baseline comparison, complexity analysis, and block-level ablation.
+    \item We provide deployment-oriented workflows for web-based upload, IoT/canal-camera monitoring, farmer alerting, treatment recommendation, and reporting to authorities.
+\end{enumerate}
+
+\subsection{Paper Taxonomy and Organization}
+\label{subsec:taxonomy}
+Table~\ref{tab:paper_taxonomy} summarizes the taxonomy of this manuscript. The rest of the paper is organized as follows. Section~\ref{sec:related_work} reviews traditional methods, deep-learning methods, and datasets for water contamination monitoring. Section~\ref{sec:proposed_work} presents the proposed \method{} pipeline, architecture, and mathematical formulation. Section~\ref{sec:experiments} describes implementation details, datasets, losses, metrics, quantitative results, qualitative results, and ablations. Section~\ref{sec:limitations} discusses limitations and future work. Section~\ref{sec:conclusion} concludes the paper.
+
+\begin{table}[!t]
+\centering
+\caption{Taxonomy of the Proposed Manuscript}
+\label{tab:paper_taxonomy}
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Dimension} & \textbf{Paper Focus} \\
+\midrule
+Application & Irrigation water quality monitoring using canal or farm-water images \\
+Input modality & RGB image/video frames \\
+Task level & Binary contamination detection and multi-class contamination type recognition \\
+Classes & Clean; oil, algae, turbid, debris, foam, uncertain \\
+Model family & Custom CNN with multi-scale residual learning and attention \\
+Main blocks & Stem, \msrb{}, \csab{}, shared classifier, binary head, type head \\
+Deployment logic & Web application, IoT camera, Raspberry Pi/edge inference, farmer alert \\
+Evaluation & Synthetic test, real test, fine-tuned real test, ablation, complexity analysis \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+% =====================================================================
+\section{Related Work}
+\label{sec:related_work}
+
+\subsection{Traditional Methods in Water Contamination Tasks}
+\label{subsec:traditional_methods}
+Traditional water contamination monitoring methods rely on physicochemical sensing, empirical water-quality indices, image thresholding, color histograms, texture descriptors, and handcrafted decision rules. Sensor-based pipelines use variables such as pH, turbidity, total dissolved solids, dissolved oxygen, conductivity, and temperature to classify or regress water quality. Image-based traditional methods typically extract color-space features such as RGB, HSV, Lab, or normalized color ratios, followed by thresholding, segmentation, or shallow classifiers. These methods are interpretable and computationally light, but their performance can degrade when the water surface has reflections, shadows, variable depth, floating objects, foam, vegetation, or changing background.
+
+\subsection{Deep Learning in Water Contamination Tasks}
+\label{subsec:deep_learning_methods}
+Deep learning has improved water-quality monitoring by enabling models to learn discriminative features directly from data. CNNs are used for image classification and segmentation, recurrent networks and LSTMs are used for sensor time-series prediction, and hybrid CNN--LSTM or attention-based models are used when spatial and temporal cues are both available. Recent work also uses IoT integration, TinyML, cloud-edge pipelines, and federated learning. However, many studies focus on sensor readings rather than visual canal-camera images, and several image-based works are limited to binary contamination recognition or private datasets. This motivates a dedicated visual architecture and dataset for irrigation-channel contamination recognition.
+
+\subsection{Datasets for Water Contamination and Irrigation Water Quality}
+\label{subsec:datasets_related_work}
+Available datasets in water-quality research include sensor-based datasets, satellite or remote-sensing datasets, CCTV/channel monitoring datasets, and private drone/canal image datasets. Sensor datasets are useful for numerical water-quality index estimation, while image datasets are more suitable for direct visual contamination recognition. A major limitation is that many visual datasets are private, small, location-specific, or do not include fine-grained contamination categories. The proposed \dataset{} is designed to support both binary safety prediction and multi-class contamination type classification.
+
+% =====================================================================
+\section{Proposed Work}
+\label{sec:proposed_work}
+
+\subsection{Overall Pipeline}
+\label{subsec:pipeline}
+The proposed system follows the pipeline in Fig.~\ref{fig:main_pipeline}. Images and video frames are collected from canal, irrigation, and open-water scenarios. A vision-language model or manual annotation procedure generates captions and label suggestions. After cleaning, balancing, and splitting the dataset, the classification model is trained and evaluated. At inference time, the trained model predicts whether the water is clean or contaminated and, if contaminated, predicts the contamination type.
+
+\begin{figure*}[!t]
+\centering
+\placeholderfigure{1.25in}{Main pipeline figure placeholder.\\
+Collection $\rightarrow$ VLM/manual labeling $\rightarrow$ dataset curation $\rightarrow$ \method{} training $\rightarrow$ validation/test $\rightarrow$ deployment prediction.\\
+Replace this box with the final pipeline diagram.}
+\caption{Overall pipeline of the proposed camera-based irrigation water contamination monitoring framework.}
+\label{fig:main_pipeline}
+\end{figure*}
+
+\subsection{Task Definition}
+\label{subsec:task_definition}
+Let the curated dataset be denoted as
+\begin{equation}
+\mathcal{D} = \{(\mathbf{x}_i, y_i^{b}, y_i^{t})\}_{i=1}^{N},
+\label{eq:dataset}
+\end{equation}
+where $\mathbf{x}_i \in \mathbb{R}^{H \times W \times 3}$ is an RGB image, $y_i^{b} \in \{0,1\}$ is the binary label with $0$ representing clean water and $1$ representing contaminated water, and $y_i^{t} \in \{1,\ldots,K\}$ is the contamination type label for contaminated samples. In this work, $K=6$ for oil, algae, turbid, debris, foam, and uncertain.
+
+\subsection{VLM-Assisted Data Labeling}
+\label{subsec:vlm_labeling}
+For each image $\mathbf{x}_i$, a vision-language model can be prompted to produce a caption or description:
+\begin{equation}
+\mathbf{c}_i = \mathcal{V}(\mathbf{x}_i, \mathbf{q}),
+\label{eq:vlm_caption}
+\end{equation}
+where $\mathcal{V}$ is the vision-language model and $\mathbf{q}$ is a task-specific prompt asking for water appearance, visible pollutants, color, surface artifacts, and safety condition. The caption is mapped to a preliminary label using a rule or classifier $g(\cdot)$:
+\begin{equation}
+(\hat{y}_i^{b}, \hat{y}_i^{t}) = g(\mathbf{c}_i).
+\label{eq:caption_to_label}
+\end{equation}
+The final training labels are obtained after filtering, manual verification, duplicate removal, and correction of ambiguous samples:
+\begin{equation}
+(y_i^{b}, y_i^{t}) = \operatorname{Verify}(\hat{y}_i^{b}, \hat{y}_i^{t}, \mathbf{x}_i).
+\label{eq:label_verify}
+\end{equation}
+
+\subsection{\method{} Architecture}
+\label{subsec:architecture}
+Fig.~\ref{fig:aquanet_architecture} shows the proposed \method{} architecture. The model has three major components: a convolutional stem, a sequence of multi-scale residual blocks, and cross spatial-channel attention blocks. A global average pooling layer and shared fully connected layer feed two output heads: a binary head and a contamination type head.
+
+\begin{figure*}[!t]
+\centering
+\placeholderfigure{1.45in}{\method{} architecture placeholder.\\
+Input $\rightarrow$ Stem $(3{\rightarrow}32{\rightarrow}64)$ $\rightarrow$ 4 MSRB stages $(64{\rightarrow}128{\rightarrow}256{\rightarrow}512{\rightarrow}512)$\\
+$\rightarrow$ CSAB attention after each stage $\rightarrow$ GAP $\rightarrow$ shared FC $\rightarrow$ binary head + type head.}
+\caption{Proposed \method{} architecture for hierarchical water contamination classification.}
+\label{fig:aquanet_architecture}
+\end{figure*}
+
+\subsubsection{Stem}
+The input image is resized to $224 \times 224$ and passed through two convolutional layers:
+\begin{equation}
+\mathbf{F}_0 = \operatorname{MaxPool}(\phi(\mathbf{W}_{s2} * \phi(\mathbf{W}_{s1} * \mathbf{x}))),
+\label{eq:stem}
+\end{equation}
+where $*$ denotes convolution and $\phi(\cdot)$ denotes a nonlinear activation function.
+
+\subsubsection{Multi-Scale Residual Block}
+Each \msrb{} extracts point-wise, local, dilated, and pooled-context features in parallel:
+\begin{align}
+\mathbf{B}_1 &= \phi(\mathbf{W}_{1\times1} * \mathbf{F}), \label{eq:branch1}\\
+\mathbf{B}_2 &= \phi(\mathbf{W}_{3\times3} * \mathbf{F}), \label{eq:branch2}\\
+\mathbf{B}_3 &= \phi(\mathbf{W}_{3\times3}^{d=2} * \mathbf{F}), \label{eq:branch3}\\
+\mathbf{B}_4 &= \operatorname{Up}\left(\phi(\mathbf{W}_{1\times1}^{p} * \operatorname{AvgPool}(\mathbf{F}))\right).
+\label{eq:branch4}
+\end{align}
+The branch outputs are concatenated and fused:
+\begin{equation}
+\mathbf{Z} = \phi(\mathbf{W}_{f} * [\mathbf{B}_1;\mathbf{B}_2;\mathbf{B}_3;\mathbf{B}_4]),
+\label{eq:msrb_fusion}
+\end{equation}
+and the residual output is
+\begin{equation}
+\mathbf{F}^{\prime} = \mathbf{Z} + \psi(\mathbf{F}),
+\label{eq:msrb_residual}
+\end{equation}
+where $\psi(\cdot)$ is an identity or projection shortcut used to match channel dimensions.
+
+\begin{figure}[!t]
+\centering
+\placeholderfigure{1.10in}{MSRB block figure placeholder.\\
+1x1 branch + 3x3 branch + dilated 3x3 branch + AvgPool branch.}
+\caption{Internal structure of the multi-scale residual block.}
+\label{fig:msrb_block}
+\end{figure}
+
+\subsubsection{Cross Spatial-Channel Attention Block}
+The \csab{} first computes channel attention using global average and max pooling:
+\begin{equation}
+\mathbf{M}_{c} = \sigma\left(\operatorname{MLP}(\operatorname{GAP}(\mathbf{F}^{\prime})) + \operatorname{MLP}(\operatorname{GMP}(\mathbf{F}^{\prime}))\right),
+\label{eq:channel_attention}
+\end{equation}
+where $\sigma(\cdot)$ is the sigmoid function. The channel-refined feature is
+\begin{equation}
+\mathbf{F}_{c} = \mathbf{M}_{c} \odot \mathbf{F}^{\prime}.
+\label{eq:channel_refined}
+\end{equation}
+Spatial attention is then computed as
+\begin{equation}
+\mathbf{M}_{s} = \sigma\left(\mathbf{W}_{7\times7} * [\operatorname{Avg}_{c}(\mathbf{F}_{c});\operatorname{Max}_{c}(\mathbf{F}_{c})]\right),
+\label{eq:spatial_attention}
+\end{equation}
+and the final attention-refined output is
+\begin{equation}
+\mathbf{F}_{a} = \mathbf{M}_{s} \odot \mathbf{F}_{c}.
+\label{eq:attention_output}
+\end{equation}
+
+\begin{figure}[!t]
+\centering
+\placeholderfigure{1.10in}{CSAB block figure placeholder.\\
+Channel attention + spatial attention.}
+\caption{Internal structure of the cross spatial-channel attention block.}
+\label{fig:csab_block}
+\end{figure}
+
+\subsubsection{Hierarchical Output Heads}
+The final feature map is aggregated and passed through a shared representation:
+\begin{equation}
+\mathbf{h} = \phi(\mathbf{W}_{h}\operatorname{GAP}(\mathbf{F}_{a}) + \mathbf{b}_{h}).
+\label{eq:shared_head}
+\end{equation}
+The binary prediction is
+\begin{equation}
+p_i^{b} = \sigma(\mathbf{w}_{b}^{T}\mathbf{h}_i + b_b),
+\label{eq:binary_pred}
+\end{equation}
+and the contamination type prediction is
+\begin{equation}
+\mathbf{p}_i^{t} = \operatorname{softmax}(\mathbf{W}_{t}\mathbf{h}_i + \mathbf{b}_{t}).
+\label{eq:type_pred}
+\end{equation}
+
+\subsection{Deployment Workflows}
+\label{subsec:deployment_workflows}
+The model supports three deployment-facing workflows. First, a dataset preparation workflow collects images/videos, performs VLM-assisted captioning and labeling, trains the model, validates performance, and tests on real-world water images. Second, a web application workflow allows a user to upload an image or video and receive a clean/contaminated decision, contamination report, and possible treatment suggestion. Third, an IoT workflow uses a fixed camera at a water source to capture images periodically, process them on a Raspberry Pi or edge device, and send alerts to farmers or authorities.
+
+\begin{figure*}[!t]
+\centering
+\subfloat[Dataset preparation and training workflow.]{
+\fbox{\begin{minipage}[c][1.05in][c]{0.30\linewidth}
+\centering Collect $\rightarrow$ VLM caption $\rightarrow$ label $\rightarrow$ train $\rightarrow$ test
+\end{minipage}}
+}
+\hfill
+\subfloat[Web application workflow.]{
+\fbox{\begin{minipage}[c][1.05in][c]{0.30\linewidth}
+\centering Upload $\rightarrow$ AI model $\rightarrow$ clean/contaminated $\rightarrow$ report
+\end{minipage}}
+}
+\hfill
+\subfloat[IoT canal-camera workflow.]{
+\fbox{\begin{minipage}[c][1.05in][c]{0.30\linewidth}
+\centering Camera $\rightarrow$ Raspberry Pi $\rightarrow$ prediction $\rightarrow$ alert
+\end{minipage}}
+}
+\caption{Block-level workflow figures to be replaced with final diagrams.}
+\label{fig:block_workflows}
+\end{figure*}
+
+% =====================================================================
+\section{Results and Experimentation}
+\label{sec:experiments}
+
+\subsection{Implementation Details}
+\label{subsec:implementation_details}
+The proposed model is trained using the configuration in Table~\ref{tab:implementation}. Images are resized to $224 \times 224$ pixels. Weighted random sampling is used to reduce class imbalance. Data augmentation includes random horizontal flip, vertical flip, rotation, and color jitter. The optimizer is AdamW with a learning rate of $10^{-3}$ and weight decay of $10^{-4}$. Training is performed for 30 epochs using a batch size of 32. The learning rate is adjusted using ReduceLROnPlateau with factor 0.5 and patience 3.
+
+\begin{table}[!t]
+\centering
+\caption{Implementation Details}
+\label{tab:implementation}
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Component} & \textbf{Setting} \\
+\midrule
+Model & \method{} \\
+Input size & $224 \times 224$ RGB image \\
+Hardware & NVIDIA Tesla T4, 15.6 GB GPU memory \\
+Platform & Kaggle Notebooks \\
+Batch size & 32 \\
+Epochs & 30 \\
+Optimizer & AdamW \\
+Learning rate & $1 \times 10^{-3}$ \\
+Weight decay & $1 \times 10^{-4}$ \\
+Scheduler & ReduceLROnPlateau, factor 0.5, patience 3 \\
+Dropout & 0.5 \\
+Sampler & WeightedRandomSampler with weight $1/n_c$ \\
+Augmentation & Horizontal flip, vertical flip, rotation $\pm 15^{\circ}$, color jitter \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsection{Losses and Metrics}
+\label{subsec:losses_metrics}
+The binary head is trained using binary cross-entropy with logits:
+\begin{equation}
+\mathcal{L}_{b} = -\frac{1}{N}\sum_{i=1}^{N}\left[y_i^b \log(p_i^b) + (1-y_i^b)\log(1-p_i^b)\right].
+\label{eq:binary_loss}
+\end{equation}
+The type head is trained only on contaminated samples using a masked cross-entropy loss:
+\begin{equation}
+\mathcal{L}_{t} = -\frac{1}{\sum_{i=1}^{N}m_i+\epsilon}\sum_{i=1}^{N}m_i\sum_{k=1}^{K} y_{ik}^{t}\log(p_{ik}^{t}),
+\label{eq:type_loss}
+\end{equation}
+where $m_i=y_i^b$ indicates whether sample $i$ is contaminated. The total loss is
+\begin{equation}
+\mathcal{L}_{total} = \mathcal{L}_{b} + \lambda_t\mathcal{L}_{t} + \lambda_w\lVert\Theta\rVert_2^2.
+\label{eq:total_loss}
+\end{equation}
+In the current training recipe, $\lambda_t=1.0$.
+
+The evaluation metrics include accuracy, precision, recall, F1-score, macro-F1, per-class F1, confusion matrix, and area under the ROC curve for binary classification. For a class $c$, precision and recall are:
+\begin{align}
+\operatorname{Precision}_{c} &= \frac{TP_c}{TP_c + FP_c},\\
+\operatorname{Recall}_{c} &= \frac{TP_c}{TP_c + FN_c},
+\end{align}
+and F1-score is
+\begin{equation}
+F1_c = \frac{2 \cdot \operatorname{Precision}_{c}\cdot \operatorname{Recall}_{c}}{\operatorname{Precision}_{c}+\operatorname{Recall}_{c}}.
+\label{eq:f1}
+\end{equation}
+
+\subsection{Datasets}
+\label{subsec:datasets}
+
+\subsubsection{Synthetic and Real Data}
+The curated dataset contains 6055 images covering clean water and contaminated water. The contaminated set contains six types: oil, algae, turbid, debris, foam, and uncertain. Images were collected from Kaggle, Roboflow, extracted frames from online videos, and AI-generated images. The main dataset is split into 70:15:15 train:test:validation. An additional 469 unseen images are kept outside the main split for re-verification and final evaluation.
+
+\begin{table}[!t]
+\centering
+\caption{Dataset Summary}
+\label{tab:dataset_summary}
+\begin{tabularx}{\linewidth}{lX}
+\toprule
+\textbf{Item} & \textbf{Details} \\
+\midrule
+Dataset name & \dataset{} \\
+Total images & 6055 \\
+Main categories & Clean water, contaminated water \\
+Contamination types & Oil, algae, turbid, debris, foam, uncertain \\
+Sources & Kaggle, Roboflow, YouTube video frames, AI-generated images \\
+Main split & 70:15:15 train:test:validation \\
+Unseen verification set & 469 images excluded from main split \\
+\bottomrule
+\end{tabularx}
+\end{table}
+
+\subsubsection{Data Distribution Graphs and Visual Samples}
+This subsection should include dataset distribution bar charts, pie charts, class count tables, and grid images. Fig.~\ref{fig:data_distribution} and Fig.~\ref{fig:dataset_grid} are placeholders for the final visualizations.
+
+\begin{figure}[!t]
+\centering
+\placeholderfigure{1.30in}{Dataset distribution placeholder.\\
+Insert bar chart and pie chart for clean, oil, algae, turbid, debris, foam, uncertain.}
+\caption{Class distribution of the curated dataset.}
+\label{fig:data_distribution}
+\end{figure}
+
+\begin{figure*}[!t]
+\centering
+\placeholderfigure{1.60in}{Dataset grid placeholder.\\
+Insert representative image grid: clean, oil, algae, turbid, debris, foam, uncertain.}
+\caption{Representative samples from the curated water contamination dataset.}
+\label{fig:dataset_grid}
+\end{figure*}
+
+\begin{table}[!t]
+\centering
+\caption{Class-Wise Dataset Distribution}
+\label{tab:class_distribution}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Class} & \textbf{Train} & \textbf{Validation} & \textbf{Test} & \textbf{Total} \\
+\midrule
+Clean & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Oil & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Algae & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Turbid & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Debris & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Foam & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Uncertain & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\midrule
+Total & \todo{--} & \todo{--} & \todo{--} & 6055 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Quantitative Experiments}
+\label{subsec:quantitative}
+
+\subsubsection{Table 1: Baseline Results on Synthetic and Real Test Sets}
+Table~\ref{tab:baseline_synth_real} compares baseline models on curated synthetic and real test sets.
+
+\begin{table*}[!t]
+\centering
+\caption{Baseline Results on Curated Synthetic and Real Test Sets}
+\label{tab:baseline_synth_real}
+\begin{tabular}{lcccccccc}
+\toprule
+\multirow{2}{*}{\textbf{Model}} & \multirow{2}{*}{\textbf{Input}} & \multicolumn{3}{c}{\textbf{Synthetic Test}} & \multicolumn{3}{c}{\textbf{Real Test}} & \multirow{2}{*}{\textbf{Remarks}} \\
+\cmidrule(lr){3-5}\cmidrule(lr){6-8}
+& & Acc. & Macro-F1 & AUC & Acc. & Macro-F1 & AUC & \\
+\midrule
+ResNet-18 & $224^2$ & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & Baseline CNN \\
+MobileNetV3 & $224^2$ & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & Lightweight baseline \\
+EfficientNet-B0 & $224^2$ & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & Compound scaling \\
+ConvNeXt-Tiny & $224^2$ & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & Modern CNN \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsubsection{Table 2: Synthetic-Training Transfer Evaluation}
+Table~\ref{tab:synth_train_transfer} compares baseline and proposed models trained on synthetic data and evaluated on both synthetic and real test sets.
+
+\begin{table*}[!t]
+\centering
+\caption{Models Trained on Synthetic Data and Tested on Synthetic and Real Data}
+\label{tab:synth_train_transfer}
+\begin{tabular}{lcccccc}
+\toprule
+\multirow{2}{*}{\textbf{Model}} & \multicolumn{3}{c}{\textbf{Synthetic Test}} & \multicolumn{3}{c}{\textbf{Real Test}} \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}
+& Binary Acc. & Binary F1 & Type Macro-F1 & Binary Acc. & Binary F1 & Type Macro-F1 \\
+\midrule
+Best baseline & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\method{} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsubsection{Table 3: Real-Data Fine-Tuning Evaluation}
+Table~\ref{tab:real_finetune} reports the performance after fine-tuning on real data and testing on the real test set.
+
+\begin{table*}[!t]
+\centering
+\caption{Fine-Tuned Models Evaluated on Real Test Set}
+\label{tab:real_finetune}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Model} & \textbf{Pretraining} & \textbf{Fine-Tuning Data} & \textbf{Binary Acc.} & \textbf{Binary F1} & \textbf{Type Acc.} & \textbf{Type Macro-F1} \\
+\midrule
+Best baseline & Synthetic & Real train split & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\method{} & Synthetic & Real train split & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\bottomrule
+\end{tabular}
+\end{table*}
+
+\subsubsection{Table 4: Model Complexity}
+Table~\ref{tab:model_complexity} compares parameter count, FLOPs, memory, and inference speed.
+
+The number of parameters is computed as
+\begin{equation}
+P = \sum_{\ell=1}^{L} P_{\ell},
+\label{eq:params}
+\end{equation}
+and the approximate convolutional FLOPs for layer $\ell$ are
+\begin{equation}
+\operatorname{FLOPs}_{\ell} = H_{\ell}W_{\ell}C_{\ell}^{out}(K_hK_wC_{\ell}^{in}).
+\label{eq:flops}
+\end{equation}
+
+\begin{table}[!t]
+\centering
+\caption{Model Complexity Comparison}
+\label{tab:model_complexity}
+\begin{tabular}{lrrrr}
+\toprule
+\textbf{Model} & \textbf{Params} & \textbf{FLOPs} & \textbf{Memory} & \textbf{FPS} \\
+\midrule
+ResNet-18 & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+MobileNetV3 & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+EfficientNet-B0 & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\method{} & 3.448M & \todo{--} & \todo{--} & \todo{--} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Ablation Experiments}
+\label{subsec:ablation}
+
+\subsubsection{Effect of Multi-Scale Residual Block}
+\begin{table}[!t]
+\centering
+\caption{Ablation of Multi-Scale Residual Block}
+\label{tab:ablation_msrb}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Variant} & \textbf{\msrb{}} & \textbf{Binary F1} & \textbf{Type Macro-F1} & \textbf{Params} \\
+\midrule
+w/o Block 1 & No & \todo{--} & \todo{--} & \todo{--} \\
+w Block 1 & Yes & \todo{--} & \todo{--} & \todo{--} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Effect of Cross Spatial-Channel Attention Block}
+\begin{table}[!t]
+\centering
+\caption{Ablation of Cross Spatial-Channel Attention Block}
+\label{tab:ablation_csab}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Variant} & \textbf{\csab{}} & \textbf{Binary F1} & \textbf{Type Macro-F1} & \textbf{Params} \\
+\midrule
+w/o Block 2 & No & \todo{--} & \todo{--} & \todo{--} \\
+w Block 2 & Yes & \todo{--} & \todo{--} & \todo{--} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Combined Block Ablation}
+\begin{table}[!t]
+\centering
+\caption{Combined Ablation of \msrb{} and \csab{}}
+\label{tab:ablation_combined}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Variant} & \textbf{\msrb{}} & \textbf{\csab{}} & \textbf{Binary F1} & \textbf{Type Macro-F1} \\
+\midrule
+w/o Block 1 + w/o Block 2 & No & No & \todo{--} & \todo{--} \\
+w Block 1 + w Block 2 & Yes & Yes & \todo{--} & \todo{--} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Qualitative Results}
+\label{subsec:qualitative}
+Qualitative examples should show input images, ground-truth labels, predicted binary class, predicted contamination type, confidence score, and failure/success commentary. Include both easy and difficult cases: reflective clean water, algae-like vegetation, foam under sunlight, turbid water, oil film, debris, and uncertain mixed contamination.
+
+\begin{figure*}[!t]
+\centering
+\placeholderfigure{1.70in}{Qualitative results placeholder.\\
+Columns: input image, ground truth, binary prediction, type prediction, confidence, comment.}
+\caption{Qualitative predictions of \method{} on real water images.}
+\label{fig:qualitative_results}
+\end{figure*}
+
+\subsection{Classification Results on Real Dataset}
+\label{subsec:real_classification}
+
+\subsubsection{Binary Prediction}
+Table~\ref{tab:binary_real_results} reports binary clean/contaminated prediction on the real test set.
+
+\begin{table}[!t]
+\centering
+\caption{Binary Classification Results on Real Test Set}
+\label{tab:binary_real_results}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{Support} \\
+\midrule
+Clean & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Contaminated & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\midrule
+Macro Avg. & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Weighted Avg. & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsubsection{Multi-Class Contamination Prediction}
+Table~\ref{tab:multiclass_real_results} reports multi-class contamination recognition on contaminated samples from the real test set.
+
+\begin{table}[!t]
+\centering
+\caption{Multi-Class Contamination Results on Real Test Set}
+\label{tab:multiclass_real_results}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Class} & \textbf{Precision} & \textbf{Recall} & \textbf{F1} & \textbf{Support} \\
+\midrule
+Oil & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Algae & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Turbid & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Debris & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Foam & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Uncertain & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\midrule
+Macro Avg. & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+Weighted Avg. & \todo{--} & \todo{--} & \todo{--} & \todo{--} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[!t]
+\centering
+\placeholderfigure{1.30in}{Confusion matrix placeholder.\\
+Insert binary and multi-class confusion matrices.}
+\caption{Confusion matrix visualizations for binary and multi-class real-set evaluation.}
+\label{fig:confusion_matrices}
+\end{figure}
+
+% =====================================================================
+\section{Limitations and Future Work}
+\label{sec:limitations}
+Although \method{} is designed for practical camera-based irrigation water contamination monitoring, several limitations remain. First, visual water appearance may vary significantly across geography, season, weather, camera quality, and canal background. Second, some contamination categories can visually overlap, for example foam and reflection, algae and aquatic vegetation, or turbid and muddy water. Third, AI-generated samples can improve diversity but may introduce synthetic bias if not balanced with real data. Fourth, the current system focuses on image-based visual assessment and does not directly estimate physicochemical parameters such as pH, TDS, dissolved oxygen, or conductivity.
+
+Future work will expand real field data collection across more canals and seasons, combine camera data with low-cost sensors, add temporal video modeling, improve uncertainty estimation, calibrate model confidence, and deploy the system on Raspberry Pi or other edge devices for long-term field testing.
+
+% =====================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+This paper presented \method{}, an attention-guided multi-scale CNN for camera-based irrigation water contamination monitoring. The method uses multi-scale residual feature extraction, cross spatial-channel attention, and a hierarchical two-head classification design for clean/contaminated detection and contamination-type recognition. A custom dataset was curated from multiple sources and organized for both binary and multi-class evaluation. The manuscript template provides the full structure required for an IEEE journal submission, including dataset analysis, mathematical formulation, quantitative results, qualitative examples, complexity comparison, ablation study, limitations, and future work. The final conclusion should be updated after all experiments are complete and the exact results are inserted.
+
+% -------------------------- Acknowledgment --------------------------
+\section*{Acknowledgment}
+The authors thank \todo{students, lab members, institution, funding agency, or collaborators} for support during dataset collection, annotation, model training, and evaluation.
+
+% -------------------------- References --------------------------
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+
+\balance
+
+\end{document}

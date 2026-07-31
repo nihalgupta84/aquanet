@@ -1,0 +1,35 @@
+# Base Configuration for AquaNet Water Quality Classification
+
+dataset:
+  name: "Cleaned Water Dataset"
+  root_dir: "./data/cleaned_water_dataset"
+  finetune_dir: "./data/cleaned_scrapper_finetune"
+  unseen_dir: "./data/cleaned_scrapper_unseen_test"
+  image_size: 224
+  num_classes: 7
+  classes: ["clean", "algae", "debris", "foam", "oil", "turbid", "uncertain"]
+
+training:
+  seed: 42
+  batch_size: 32
+  num_workers: 4
+  epochs: 30
+  optimizer: "adamw"
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  lr_scheduler: "plateau"
+  scheduler_patience: 3
+  scheduler_factor: 0.5
+  early_stopping_patience: 10
+  use_weighted_sampler: true
+  use_focal_loss: true
+  focal_gamma: 2.0
+
+checkpoint:
+  save_dir: "./checkpoints"
+  log_dir: "./logs"
+  results_dir: "./results"
+
+wandb:
+  project: "aquanet-water-quality"
+  entity: "mlr-lab"

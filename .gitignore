@@ -1,0 +1,42 @@
+# Python caches and environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+
+# Training data, model artifacts, and experiment tracking
+data/
+checkpoints/
+logs/
+wandb/
+corpus/
+
+# Common generated outputs
+*.pth
+*.pt
+*.ckpt
+
+# LaTeX build artifacts (keep source, bibliography, figures, and PDFs)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
