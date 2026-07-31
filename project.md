@@ -52,3 +52,19 @@
 ├── checkpoints/                        # Model weights
 └── logs/                               # Execution logs
 ```
+
+---
+
+## 2026-07-31 — Phase 3 Evidence-First Rebuild
+
+The manuscript audit found that `paper_v2` mixed verified seed-42 results with unsupported ablation, statistical significance, calibration, interpretability, and deployment claims. Phase 3 was established to regenerate evidence before drafting `paper_v3`.
+
+Implemented `experiments/phase3_pipeline.py` with reproducible MD5/dHash auditing, controlled AquaNet v3 component ablations, three-seed baseline comparisons, calibration metrics, latency/parameter reporting, aggregation, and paired tests. The audit confirms zero exact duplicate groups across D1/D2/D3 but identifies 698 perceptual candidate pairs at dHash distance <=5; future writing must not call the data “100% leakage-free.”
+
+The GPU suite is resumable but was paused without partial results due to unrelated shared A100 workloads. See `PHASE3.md` for the manuscript gate and exact experiment requirements.
+
+## 2026-07-31 — Phase 3 Experiments and Manuscript Completed
+
+All 12 planned runs completed: three matched seeds each for AquaNet v3, ResNet50, and MobileNetV2, plus seed-42 no-MSRB, no-CSAB, and flat-head substitutions. AquaNet v3 averaged 85.95% accuracy, compared with 86.10% for ResNet50 and 86.03% for MobileNetV2; paired tests found no significant difference. Single-seed substitutions did not validate a positive contribution from every AquaNet component.
+
+The result-derived figures and evidence-aligned IEEE draft are in `paper_v3/`. The manuscript explicitly separates the earlier 90.40% retained run from the matched Phase 3 protocol, withdraws unsupported claims, and foregrounds the real-domain gap and provenance limitations.

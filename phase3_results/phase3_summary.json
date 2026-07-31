@@ -1,0 +1,294 @@
+{
+  "runs": [
+    {
+      "model": "mobilenetv2",
+      "variant": "full",
+      "seed": 21,
+      "accuracy": 0.8618266978922716,
+      "macro_f1": 0.8277671472643836,
+      "weighted_f1": 0.8653781993744643,
+      "ece_15bin": 0.05570351704955101,
+      "nll": 0.4310692548751831,
+      "latency_ms_per_image": 0.5067897611101682,
+      "params_m": 2.232839
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "no_csab",
+      "seed": 42,
+      "accuracy": 0.8665105386416861,
+      "macro_f1": 0.8318736548292603,
+      "weighted_f1": 0.8701997560791572,
+      "ece_15bin": 0.08693744242191315,
+      "nll": 0.5065258145332336,
+      "latency_ms_per_image": 1.8153611709942308,
+      "params_m": 10.500238
+    },
+    {
+      "model": "resnet50",
+      "variant": "full",
+      "seed": 7,
+      "accuracy": 0.8594847775175644,
+      "macro_f1": 0.8262123867673796,
+      "weighted_f1": 0.8627831628753214,
+      "ece_15bin": 0.06497502326965332,
+      "nll": 0.44719940423965454,
+      "latency_ms_per_image": 1.1463408291368096,
+      "params_m": 23.522375
+    },
+    {
+      "model": "resnet50",
+      "variant": "full",
+      "seed": 21,
+      "accuracy": 0.8477751756440282,
+      "macro_f1": 0.8132942179123107,
+      "weighted_f1": 0.852479043196545,
+      "ece_15bin": 0.03952841833233833,
+      "nll": 0.41098636388778687,
+      "latency_ms_per_image": 1.0563919236624821,
+      "params_m": 23.522375
+    },
+    {
+      "model": "resnet50",
+      "variant": "full",
+      "seed": 42,
+      "accuracy": 0.8758782201405152,
+      "macro_f1": 0.8435624452762426,
+      "weighted_f1": 0.8775956312485221,
+      "ece_15bin": 0.06433212757110596,
+      "nll": 0.40972357988357544,
+      "latency_ms_per_image": 1.1072568474878377,
+      "params_m": 23.522375
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "flat",
+      "seed": 42,
+      "accuracy": 0.8899297423887588,
+      "macro_f1": 0.8586337727063927,
+      "weighted_f1": 0.8912538750072063,
+      "ece_15bin": 0.06467710435390472,
+      "nll": 0.41819319128990173,
+      "latency_ms_per_image": 1.593791467458267,
+      "params_m": 10.533104
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "full",
+      "seed": 42,
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.818372938390158,
+      "weighted_f1": 0.8596703366959959,
+      "ece_15bin": 0.05556616187095642,
+      "nll": 0.399446964263916,
+      "latency_ms_per_image": 1.2566813886885275,
+      "params_m": 10.533104
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "full",
+      "seed": 7,
+      "accuracy": 0.8501170960187353,
+      "macro_f1": 0.8105578584878966,
+      "weighted_f1": 0.8502281290190555,
+      "ece_15bin": 0.07341454923152924,
+      "nll": 0.4594610035419464,
+      "latency_ms_per_image": 1.711726291454005,
+      "params_m": 10.533104
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "no_msrb",
+      "seed": 42,
+      "accuracy": 0.8782201405152225,
+      "macro_f1": 0.8403977054750688,
+      "weighted_f1": 0.8801272201898207,
+      "ece_15bin": 0.06574045121669769,
+      "nll": 0.3591614067554474,
+      "latency_ms_per_image": 1.463356538188114,
+      "params_m": 7.647472
+    },
+    {
+      "model": "mobilenetv2",
+      "variant": "full",
+      "seed": 7,
+      "accuracy": 0.8477751756440282,
+      "macro_f1": 0.8170982533521778,
+      "weighted_f1": 0.8514405356906746,
+      "ece_15bin": 0.05188712850213051,
+      "nll": 0.41806310415267944,
+      "latency_ms_per_image": 0.6832491341109703,
+      "params_m": 2.232839
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "full",
+      "seed": 21,
+      "accuracy": 0.8711943793911007,
+      "macro_f1": 0.8408366865504581,
+      "weighted_f1": 0.8731803976013479,
+      "ece_15bin": 0.06739383935928345,
+      "nll": 0.45488494634628296,
+      "latency_ms_per_image": 1.5712593595288782,
+      "params_m": 10.533104
+    },
+    {
+      "model": "mobilenetv2",
+      "variant": "full",
+      "seed": 42,
+      "accuracy": 0.8711943793911007,
+      "macro_f1": 0.8426402137192717,
+      "weighted_f1": 0.8759592366345175,
+      "ece_15bin": 0.0710097998380661,
+      "nll": 0.48620474338531494,
+      "latency_ms_per_image": 0.5192188311858975,
+      "params_m": 2.232839
+    }
+  ],
+  "summary": [
+    {
+      "model": "mobilenetv2",
+      "variant": "full",
+      "seeds": [
+        21,
+        7,
+        42
+      ],
+      "accuracy_mean": 0.8602654176424669,
+      "accuracy_std": 0.011787407393084653,
+      "macro_f1_mean": 0.8291685381119445,
+      "macro_f1_std": 0.012828517337528487,
+      "weighted_f1_mean": 0.8642593238998856,
+      "weighted_f1_std": 0.012297584548971847,
+      "ece_15bin_mean": 0.05953348179658254,
+      "ece_15bin_std": 0.010120306923615577,
+      "nll_mean": 0.44511236747105914,
+      "nll_std": 0.03617633906109077,
+      "latency_ms_per_image_mean": 0.5697525754690119,
+      "latency_ms_per_image_std": 0.09848716699861186,
+      "params_m_mean": 2.232839,
+      "params_m_std": 0.0
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "no_csab",
+      "seeds": [
+        42
+      ],
+      "accuracy_mean": 0.8665105386416861,
+      "accuracy_std": null,
+      "macro_f1_mean": 0.8318736548292603,
+      "macro_f1_std": null,
+      "weighted_f1_mean": 0.8701997560791572,
+      "weighted_f1_std": null,
+      "ece_15bin_mean": 0.08693744242191315,
+      "ece_15bin_std": null,
+      "nll_mean": 0.5065258145332336,
+      "nll_std": null,
+      "latency_ms_per_image_mean": 1.8153611709942308,
+      "latency_ms_per_image_std": null,
+      "params_m_mean": 10.500238,
+      "params_m_std": null
+    },
+    {
+      "model": "resnet50",
+      "variant": "full",
+      "seeds": [
+        7,
+        21,
+        42
+      ],
+      "accuracy_mean": 0.8610460577673692,
+      "accuracy_std": 0.014116425698692488,
+      "macro_f1_mean": 0.8276896833186442,
+      "macro_f1_std": 0.015188094046454688,
+      "weighted_f1_mean": 0.8642859457734628,
+      "weighted_f1_std": 0.012625550133455175,
+      "ece_15bin_mean": 0.056278523057699203,
+      "ece_15bin_std": 0.01450957735265642,
+      "nll_mean": 0.4226364493370056,
+      "nll_std": 0.021281511248557906,
+      "latency_ms_per_image_mean": 1.1033298667623763,
+      "latency_ms_per_image_std": 0.04510285226258957,
+      "params_m_mean": 23.522375,
+      "params_m_std": 0.0
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "flat",
+      "seeds": [
+        42
+      ],
+      "accuracy_mean": 0.8899297423887588,
+      "accuracy_std": null,
+      "macro_f1_mean": 0.8586337727063927,
+      "macro_f1_std": null,
+      "weighted_f1_mean": 0.8912538750072063,
+      "weighted_f1_std": null,
+      "ece_15bin_mean": 0.06467710435390472,
+      "ece_15bin_std": null,
+      "nll_mean": 0.41819319128990173,
+      "nll_std": null,
+      "latency_ms_per_image_mean": 1.593791467458267,
+      "latency_ms_per_image_std": null,
+      "params_m_mean": 10.533104,
+      "params_m_std": null
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "full",
+      "seeds": [
+        42,
+        7,
+        21
+      ],
+      "accuracy_mean": 0.8594847775175644,
+      "accuracy_std": 0.010732027388655375,
+      "macro_f1_mean": 0.8232558278095042,
+      "macro_f1_std": 0.01571889989858425,
+      "weighted_f1_mean": 0.8610262877721331,
+      "weighted_f1_std": 0.011536056984909518,
+      "ece_15bin_mean": 0.06545818348725636,
+      "ece_15bin_std": 0.009080270127284129,
+      "nll_mean": 0.43793097138404846,
+      "nll_std": 0.033406573872238075,
+      "latency_ms_per_image_mean": 1.5132223465571368,
+      "latency_ms_per_image_std": 0.23300791196700224,
+      "params_m_mean": 10.533104,
+      "params_m_std": 0.0
+    },
+    {
+      "model": "aquanet_v3",
+      "variant": "no_msrb",
+      "seeds": [
+        42
+      ],
+      "accuracy_mean": 0.8782201405152225,
+      "accuracy_std": null,
+      "macro_f1_mean": 0.8403977054750688,
+      "macro_f1_std": null,
+      "weighted_f1_mean": 0.8801272201898207,
+      "weighted_f1_std": null,
+      "ece_15bin_mean": 0.06574045121669769,
+      "ece_15bin_std": null,
+      "nll_mean": 0.3591614067554474,
+      "nll_std": null,
+      "latency_ms_per_image_mean": 1.463356538188114,
+      "latency_ms_per_image_std": null,
+      "params_m_mean": 7.647472,
+      "params_m_std": null
+    }
+  ],
+  "paired_statistics": {
+    "resnet50": {
+      "paired_t_p": 0.9139337034176107,
+      "wilcoxon_p": 1.0,
+      "mean_difference": -0.0015612802498048788
+    },
+    "mobilenetv2": {
+      "paired_t_p": 0.9206948414281817,
+      "wilcoxon_p": 1.0,
+      "mean_difference": -0.0007806401249024578
+    }
+  }
+}

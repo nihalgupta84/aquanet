@@ -1,0 +1,3509 @@
+{
+  "files": 3158,
+  "counts": {
+    "D2": 213,
+    "D3": 146,
+    "D1-test": 427,
+    "D1-train": 1956,
+    "D1-val": 416
+  },
+  "exact_duplicate_groups": [],
+  "cross_split_exact_groups": [],
+  "cross_split_near_pairs_threshold_5": [
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0171.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0010.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0124.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0013.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0165.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0020.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0003.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0020.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0066.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0020.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0067.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0024.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0142.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0078.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0087.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0028.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0133.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0076.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0125.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0142.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0152.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0182.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0014.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0047.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0057.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0070.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0098.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0103.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0108.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0111.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0167.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0029.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0032.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0137.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0015.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0031.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0013.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0036.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0064.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0038.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0030.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0038.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0162.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0038.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0025.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0038.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0030.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/clean/clean_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0036.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0000.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0659.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0008.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0478.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0014.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0241.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0022.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0190.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0022.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0225.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0022.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0561.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0022.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0606.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0022.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0646.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0022.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0691.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0025.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0226.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0033.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0521.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0373.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0088.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0083.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0041.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0036.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0041.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0544.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0041.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0068.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0053.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0020.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0066.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0050.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0026.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0304.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0506.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0561.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0567.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0646.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0028.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0059.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0072.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0138.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0078.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0125.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0078.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0109.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0083.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0039.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0083.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0338.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0083.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0664.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0086.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0178.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0086.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0379.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0094.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0190.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0094.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0225.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0094.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0450.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0094.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0606.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0101.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0276.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0111.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0119.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0116.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0028.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0116.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0124.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0126.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0238.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0131.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0249.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0138.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0190.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0138.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0225.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0138.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0561.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0138.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0606.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0138.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0646.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0138.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0691.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0139.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0079.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0139.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0155.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0139.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0175.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0139.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0495.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0139.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0503.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0139.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0513.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0143.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0338.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0143.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0618.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/algae/algae_test_0143.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0664.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0016.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0021.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0005.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0021.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0183.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0021.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0185.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0021.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0214.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0127.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0224.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0027.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0030.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0034.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0039.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/debris/debris_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0000.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0014.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0080.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0005.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0006.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0006.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0009.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0018.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0008.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0047.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0009.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0019.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0012.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0043.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0012.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0046.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0017.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0097.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0018.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0004.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0020.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0054.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/oil/oil_test_0021.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0091.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0002.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0119.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0005.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0027.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0007.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0096.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0010.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0136.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0011.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0089.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0013.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0035.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0013.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0107.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0013.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0119.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0013.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0157.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0013.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0181.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0013.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0014.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0035.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0014.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0107.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0014.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0181.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0014.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0018.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0224.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0018.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0030.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0018.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0034.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0023.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0023.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0023.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0023.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0023.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0023.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0030.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0026.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0034.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0043.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0113.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0125.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0149.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0245.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0016.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0043.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0057.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0043.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0173.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0044.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0043.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0044.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0113.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0044.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0125.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0044.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0165.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0044.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0016.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0044.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0046.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0076.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0125.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0142.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0152.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0182.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0014.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0047.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0057.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0070.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0098.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0103.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0108.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0111.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0150.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0167.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/turbid/turbid_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0001.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0015.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0003.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0160.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0004.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0236.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0004.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0005.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0005.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0316.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0007.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0022.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0007.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0190.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0018.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0011.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0026.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0011.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0188.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0011.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0238.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0013.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0159.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0017.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0017.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0026.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0188.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0019.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0238.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0020.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0099.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0022.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0011.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0023.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0109.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0024.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0242.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0025.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0179.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0027.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0159.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0142.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0182.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0069.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0047.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0057.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0070.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0098.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0103.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0108.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0167.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0001.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0031.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0077.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0090.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0032.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0247.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0033.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0259.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0034.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0012.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0035.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0318.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0036.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0227.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0037.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0053.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0037.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0037.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0038.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0004.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0040.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0127.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0041.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0267.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0042.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0109.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0043.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0080.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0044.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0274.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0045.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0150.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0045.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0237.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0046.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0320.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0046.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0033.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0047.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0164.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0049.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0127.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0050.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0152.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0050.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0006.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0050.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0028.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0052.jpg",
+      "b": "data/cleaned_water_dataset/train/clean/clean_train_0166.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0053.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0177.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0055.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0294.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0056.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0250.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0056.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0016.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0058.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0215.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0060.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0082.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0060.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0193.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0060.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0021.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0062.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0113.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0063.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0026.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0063.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0188.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0063.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0238.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0064.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0197.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0065.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0028.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0065.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0036.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0066.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0000.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0067.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0084.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0068.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0307.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/test/contaminated/uncertain/uncertain_test_0069.jpg",
+      "b": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0294.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0025.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0031.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0000.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0032.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0015.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0004.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0049.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0035.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0074.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0039.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0076.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0004.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0096.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0022.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0102.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0033.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0108.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0029.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0113.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0009.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0118.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0115.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0137.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0015.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0142.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0142.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0042.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0142.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0143.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0028.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0154.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0014.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0156.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0030.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0162.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0025.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0182.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0019.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0182.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0004.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/clean/clean_train_0182.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0036.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0068.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0044.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0068.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0067.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0143.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0079.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0104.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0012.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0108.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0016.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0119.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0125.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0109.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0126.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0099.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0132.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0132.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0028.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0132.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0059.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0178.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0178.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0028.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0186.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0130.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0273.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0275.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0054.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0302.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0125.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0304.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0304.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0028.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0304.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0059.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0314.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0112.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0349.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0097.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0373.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0088.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0379.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0379.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0028.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0412.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0097.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0433.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0124.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0438.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0067.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0470.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0133.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0491.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0097.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0494.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0012.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0509.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0514.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0133.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0515.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0128.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0544.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0068.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0574.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0599.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0116.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0680.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0680.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0028.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0682.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0026.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0682.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0028.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0682.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0059.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/algae/algae_train_0684.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/algae/algae_val_0097.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0007.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0030.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0035.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0040.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0046.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0057.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0066.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0069.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0077.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0039.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0090.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0035.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0092.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0039.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0093.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0004.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0113.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0121.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0137.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0138.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0150.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0152.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0039.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0153.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0156.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0161.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0163.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0177.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0183.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0039.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0187.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0207.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0210.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0214.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0039.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/debris/debris_train_0218.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0028.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0036.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0029.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0002.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0031.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0051.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0033.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0005.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0035.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0020.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0042.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0019.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/oil/oil_train_0086.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0003.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0018.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0019.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0035.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0041.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0018.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0043.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0016.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0043.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0046.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0047.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0057.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0057.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0070.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0001.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0070.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0019.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0070.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0093.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0039.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0098.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0019.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0098.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0098.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0103.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0108.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0113.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0016.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0119.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0003.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0125.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0016.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0001.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0005.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0126.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0031.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0127.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0027.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0127.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0029.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0127.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0030.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0127.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0034.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0128.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0029.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0150.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0008.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0150.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0157.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0165.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0016.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0165.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0046.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0173.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0005.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0176.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0008.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0176.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0181.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0197.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0009.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0212.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0224.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0027.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0224.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0030.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0003.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0007.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0010.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0017.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0027.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0030.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0232.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0043.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/turbid/turbid_train_0245.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/debris/debris_val_0039.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0000.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0045.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0006.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0056.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0009.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0003.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0010.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0006.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0010.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0028.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0015.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0060.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0022.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0018.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0027.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0001.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0041.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0003.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0044.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0045.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0053.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/turbid/turbid_val_0012.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0057.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0061.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0070.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0025.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0072.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0009.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0082.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0021.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0083.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0023.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0092.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0016.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0095.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0023.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0097.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0048.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0110.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0032.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0110.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0042.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0114.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0034.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0116.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0032.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0116.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0042.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0122.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0045.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0125.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0053.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0126.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0067.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0128.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0025.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0143.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0012.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0149.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0052.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0152.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0006.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0152.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0028.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0167.jpg",
+      "b": "data/cleaned_water_dataset/val/clean/clean_val_0001.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0167.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0027.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0168.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0056.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0175.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0051.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0180.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0012.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0181.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0182.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0004.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0184.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0040.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0187.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0037.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0190.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0018.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0193.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0021.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0194.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0049.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0202.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0056.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0204.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0055.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0219.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0003.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0224.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0063.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0229.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0049.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0230.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0056.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0236.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0005.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0241.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0004.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0245.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0032.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0245.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0042.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0250.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0016.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0251.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0041.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0256.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0004.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0261.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0030.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0263.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0031.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0280.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0003.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0288.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0014.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0292.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0003.jpg",
+      "distance": 2
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0295.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0007.jpg",
+      "distance": 4
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0298.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0008.jpg",
+      "distance": 0
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0301.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0030.jpg",
+      "distance": 1
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0306.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/oil/oil_val_0002.jpg",
+      "distance": 3
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0318.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0016.jpg",
+      "distance": 5
+    },
+    {
+      "a": "data/cleaned_water_dataset/train/contaminated/uncertain/uncertain_train_0320.jpg",
+      "b": "data/cleaned_water_dataset/val/contaminated/uncertain/uncertain_val_0033.jpg",
+      "distance": 0
+    }
+  ],
+  "method": {
+    "exact": "MD5",
+    "perceptual": "64-bit dHash",
+    "hamming_threshold": 5
+  }
+}

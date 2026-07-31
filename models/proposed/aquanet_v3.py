@@ -13,7 +13,8 @@ class AquaNetV3(nn.Module):
     2. MSRB + CSAB Feature Enhancement Neck (Multi-scale fluid extraction & glare suppression)
     3. Hierarchical Dual-Head with Soft Probabilistic Gating
     """
-    def __init__(self, num_classes=7, pretrained=True):
+    def __init__(self, num_classes=7, pretrained=True, use_msrb=True,
+                 use_csab=True):
         super().__init__()
         # Load DenseNet121 backbone features
         self.backbone = timm.create_model('densenet121', pretrained=pretrained, num_classes=0)
@@ -22,8 +23,12 @@ class AquaNetV3(nn.Module):
         in_features = 1024
         
         # MSRB + CSAB Neck
-        self.msrb = MSRB(in_channels=in_features, out_channels=512)
-        self.csab = CSAB(channels=512)
+        self.msrb = (MSRB(in_channels=in_features, out_channels=512)
+                     if use_msrb else nn.Sequential(
+                         nn.Conv2d(in_features, 512, kernel_size=1, bias=False),
+                         nn.BatchNorm2d(512),
+                         nn.ReLU(inplace=True)))
+        self.csab = CSAB(channels=512) if use_csab else nn.Identity()
         
         self.gap = nn.AdaptiveAvgPool2d((1, 1))
         

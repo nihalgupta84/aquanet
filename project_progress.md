@@ -139,3 +139,21 @@ Dataset 3 Unseen Real OOD Test (Post-FT)  | 57.53% 🚀    | 0.5384   | 0.5611  
 
 1. **LaTeX Manuscript Update (`paper_v1/main_v1.tex`)**: Update result tables with un-leaked benchmark numbers and real-world domain adaptation results.
 2. **Qualitative Figure Generation**: Generate confusion matrices and sample predictions for the paper artifact.
+
+---
+
+## Phase 3 Status — July 31, 2026
+
+Phase 3 replaces claim-first manuscript editing with an evidence-first pipeline. The implementation and reproducible dataset audit are complete. Exact MD5 duplicates are zero across all 3,158 images; the conservative dHash screen flags 698 cross-split candidate pairs requiring review. Consequently, prior “100% leakage-free” wording is withdrawn.
+
+The required 12-run GPU suite and manuscript gate are documented in `PHASE3.md`. `paper_v3` must be written only after `phase3_results/phase3_summary.json` contains every planned run. GPU execution is currently pending sufficient shared A100 availability; no incomplete run has been reported as evidence.
+
+## Phase 3 Completion — July 31, 2026
+
+The complete 12-run matrix and aggregate statistics are available in `phase3_results/phase3_summary.json`. Mean test results over seeds 7, 21, and 42 are:
+
+- AquaNet v3: 85.95% ± 1.07 accuracy, 0.8233 ± 0.0157 macro-F1.
+- ResNet50: 86.10% ± 1.41 accuracy, 0.8277 ± 0.0152 macro-F1.
+- MobileNetV2: 86.03% ± 1.18 accuracy, 0.8292 ± 0.0128 macro-F1.
+
+Paired tests do not show a significant AquaNet advantage. Seed-42 controlled substitutions give 85.71% (full), 87.82% (no MSRB), 86.65% (no CSAB), and 88.99% (flat head), so causal component claims are withheld pending repeated ablations. `paper_v3/main_v3.pdf` is the current compiled manuscript.
