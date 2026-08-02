@@ -1,0 +1,242 @@
+{
+  "accuracy": 0.8477751756440282,
+  "macro_precision": 0.8186550205176472,
+  "macro_recall": 0.8338367162583191,
+  "macro_f1": 0.8197050946362634,
+  "weighted_f1": 0.8536420216472398,
+  "per_class": {
+    "clean": {
+      "precision": 0.6065573770491803,
+      "recall": 0.9024390243902439,
+      "f1": 0.7254901960784313,
+      "support": 41
+    },
+    "algae": {
+      "precision": 1.0,
+      "recall": 0.92,
+      "f1": 0.9583333333333334,
+      "support": 150
+    },
+    "debris": {
+      "precision": 0.8636363636363636,
+      "recall": 0.7916666666666666,
+      "f1": 0.8260869565217391,
+      "support": 48
+    },
+    "foam": {
+      "precision": 0.9722222222222222,
+      "recall": 0.875,
+      "f1": 0.9210526315789473,
+      "support": 40
+    },
+    "oil": {
+      "precision": 0.6333333333333333,
+      "recall": 0.7916666666666666,
+      "f1": 0.7037037037037037,
+      "support": 24
+    },
+    "turbid": {
+      "precision": 0.9591836734693877,
+      "recall": 0.8703703703703703,
+      "f1": 0.912621359223301,
+      "support": 54
+    },
+    "uncertain": {
+      "precision": 0.6956521739130435,
+      "recall": 0.6857142857142857,
+      "f1": 0.6906474820143885,
+      "support": 70
+    }
+  },
+  "confusion_matrix": [
+    [
+      37,
+      0,
+      0,
+      0,
+      0,
+      0,
+      4
+    ],
+    [
+      4,
+      138,
+      2,
+      0,
+      0,
+      2,
+      4
+    ],
+    [
+      3,
+      0,
+      38,
+      0,
+      0,
+      0,
+      7
+    ],
+    [
+      0,
+      0,
+      1,
+      35,
+      4,
+      0,
+      0
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      19,
+      0,
+      4
+    ],
+    [
+      1,
+      0,
+      3,
+      1,
+      0,
+      47,
+      2
+    ],
+    [
+      15,
+      0,
+      0,
+      0,
+      7,
+      0,
+      48
+    ]
+  ],
+  "tag": "T_swin_tiny_lr1e-3_bm1.0",
+  "model": "swin_tiny",
+  "head": "flat",
+  "msrb": "on",
+  "csab": "on",
+  "seed": 42,
+  "stage": "T",
+  "ece_15bin": 0.05038563907146454,
+  "nll": 0.4188598096370697,
+  "latency_ms_per_image": 1.3307656106981245,
+  "params_m": 27.524737,
+  "trainable_params_m": 27.524737,
+  "selected_epoch": 2,
+  "best_val_macro_f1": 0.8095773870485715,
+  "epochs_run": 10,
+  "train_minutes": 2.316557272275289,
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.7436330986593654,
+      "val_accuracy": 0.8004807829856873,
+      "val_nll": 0.5687566995620728,
+      "lr": 0.0003440860215053764
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.8095773870485715,
+      "val_accuracy": 0.8413461446762085,
+      "val_nll": 0.5762298107147217,
+      "lr": 0.0006774193548387097
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.7528218809092962,
+      "val_accuracy": 0.8052884340286255,
+      "val_nll": 0.6453983783721924,
+      "lr": 0.001
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.6107111041162193,
+      "val_accuracy": 0.723557710647583,
+      "val_nll": 0.7484810948371887,
+      "lr": 0.0009966191788709714
+    },
+    {
+      "epoch": 5,
+      "val_macro_f1": 0.7294346245435126,
+      "val_accuracy": 0.7908653616905212,
+      "val_nll": 0.6757183074951172,
+      "lr": 0.0009865224352899118
+    },
+    {
+      "epoch": 6,
+      "val_macro_f1": 0.7642580565386352,
+      "val_accuracy": 0.8245192170143127,
+      "val_nll": 0.588902473449707,
+      "lr": 0.0009698463103929542
+    },
+    {
+      "epoch": 7,
+      "val_macro_f1": 0.7415975680906947,
+      "val_accuracy": 0.7980769276618958,
+      "val_nll": 0.6143351793289185,
+      "lr": 0.0009468163201617061
+    },
+    {
+      "epoch": 8,
+      "val_macro_f1": 0.7072744352192759,
+      "val_accuracy": 0.776442289352417,
+      "val_nll": 0.6584911346435547,
+      "lr": 0.0009177439057064682
+    },
+    {
+      "epoch": 9,
+      "val_macro_f1": 0.7387934303267993,
+      "val_accuracy": 0.8028846383094788,
+      "val_nll": 0.6778637170791626,
+      "lr": 0.000883022221559489
+    },
+    {
+      "epoch": 10,
+      "val_macro_f1": 0.7626743101971675,
+      "val_accuracy": 0.807692289352417,
+      "val_nll": 0.5701752305030823,
+      "lr": 0.0008431208189343669
+    }
+  ],
+  "config": {
+    "model": "swin_tiny",
+    "head": "flat",
+    "msrb": "on",
+    "csab": "on",
+    "seed": 42,
+    "stage": "T",
+    "tag": "T_swin_tiny_lr1e-3_bm1.0",
+    "epochs": 30,
+    "patience": 8,
+    "batch": 64,
+    "accum": 1,
+    "eval_batch": 256,
+    "workers": 16,
+    "img_size": 224,
+    "lr": 0.001,
+    "backbone_lr_mult": 1.0,
+    "warmup_epochs": 3,
+    "weight_decay": 0.05,
+    "clip_grad": 1.0,
+    "loss": "wce",
+    "focal_gamma": 2.0,
+    "balance": "weights",
+    "lambda_mix": 0.5,
+    "uncertain_binary": "contam",
+    "amp": true,
+    "channels_last": true,
+    "scratch": false,
+    "force": false
+  },
+  "env": {
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "gpu": "NVIDIA A100-SXM4-40GB MIG 7g.40gb",
+    "python": "3.10.20",
+    "git_commit": "074670fcbba55df50d959d4b8cb63537e769839f",
+    "git_dirty": true
+  }
+}

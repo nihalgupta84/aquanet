@@ -1,0 +1,898 @@
+{
+  "A_aquanet_flat_msrb-on_csab-on_seed1337": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.55656149983406,
+    "peak_mem_mib": 4937.2900390625,
+    "latency_ms_cpu": 199.3864790070802
+  },
+  "A_aquanet_flat_msrb-on_csab-on_seed2024": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.976239619776607,
+    "peak_mem_mib": 4896.6689453125,
+    "latency_ms_cpu": 343.93247582018375
+  },
+  "A_aquanet_flat_msrb-on_csab-on_seed21": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.457850536331534,
+    "peak_mem_mib": 4855.5478515625,
+    "latency_ms_cpu": 424.9225646164268
+  },
+  "A_aquanet_flat_msrb-on_csab-on_seed42": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.740788435563445,
+    "peak_mem_mib": 4814.4267578125,
+    "latency_ms_cpu": 341.38289764523506
+  },
+  "A_aquanet_flat_msrb-on_csab-on_seed7": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.33638364262879,
+    "peak_mem_mib": 4773.8056640625,
+    "latency_ms_cpu": 440.3715792950243
+  },
+  "A_aquanet_hier_naive_msrb-on_csab-on_seed1337": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.826311940327287,
+    "peak_mem_mib": 4732.6845703125,
+    "latency_ms_cpu": 572.3330772202462
+  },
+  "A_aquanet_hier_naive_msrb-on_csab-on_seed2024": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.854350058361888,
+    "peak_mem_mib": 4691.5634765625,
+    "latency_ms_cpu": 330.84593824110925
+  },
+  "A_aquanet_hier_naive_msrb-on_csab-on_seed21": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.531187858432531,
+    "peak_mem_mib": 4650.9423828125,
+    "latency_ms_cpu": 330.8380567189306
+  },
+  "A_aquanet_hier_naive_msrb-on_csab-on_seed42": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.769067546352744,
+    "peak_mem_mib": 4609.8212890625,
+    "latency_ms_cpu": 466.7760558798909
+  },
+  "A_aquanet_hier_naive_msrb-on_csab-on_seed7": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.892814081162214,
+    "peak_mem_mib": 4568.7001953125,
+    "latency_ms_cpu": 504.19741730205715
+  },
+  "A_mobilenetv2_seed1337": {
+    "params_m": 2.232839,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 4.980364600196481,
+    "peak_mem_mib": 4529.9931640625,
+    "latency_ms_cpu": 528.348745321855
+  },
+  "A_mobilenetv2_seed2024": {
+    "params_m": 2.232839,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 4.9762652441859245,
+    "peak_mem_mib": 4521.267578125,
+    "latency_ms_cpu": 29.935526717454195
+  },
+  "A_mobilenetv2_seed21": {
+    "params_m": 2.232839,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.0483763217926025,
+    "peak_mem_mib": 4512.5419921875,
+    "latency_ms_cpu": 44.27087930031121
+  },
+  "A_mobilenetv2_seed42": {
+    "params_m": 2.232839,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.229780776426196,
+    "peak_mem_mib": 4503.45703125,
+    "latency_ms_cpu": 32.386126201599836
+  },
+  "A_mobilenetv2_seed7": {
+    "params_m": 2.232839,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.163494739681482,
+    "peak_mem_mib": 4494.7314453125,
+    "latency_ms_cpu": 27.65126334503293
+  },
+  "A_resnet50_seed1337": {
+    "params_m": 23.522375,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.707178320735693,
+    "peak_mem_mib": 4485.58447265625,
+    "latency_ms_cpu": 73.16876346245408
+  },
+  "A_resnet50_seed2024": {
+    "params_m": 23.522375,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.5812900979071856,
+    "peak_mem_mib": 4395.14892578125,
+    "latency_ms_cpu": 1428.9393637143075
+  },
+  "A_resnet50_seed21": {
+    "params_m": 23.522375,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.761667173355818,
+    "peak_mem_mib": 4304.68212890625,
+    "latency_ms_cpu": 75.90890089981258
+  },
+  "A_resnet50_seed42": {
+    "params_m": 23.522375,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.464010061696172,
+    "peak_mem_mib": 4210.40478515625,
+    "latency_ms_cpu": 72.39051945507526
+  },
+  "A_resnet50_seed7": {
+    "params_m": 23.522375,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.369094125926495,
+    "peak_mem_mib": 4117.93798828125,
+    "latency_ms_cpu": 1057.5548791792244
+  },
+  "B_aquanet_flat_msrb-matched_csab-off_seed21": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 14.749782904982567,
+    "peak_mem_mib": 4026.5078125,
+    "latency_ms_cpu": 1497.2862087655813
+  },
+  "B_aquanet_flat_msrb-matched_csab-off_seed42": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.921283094212413,
+    "peak_mem_mib": 3985.263671875,
+    "latency_ms_cpu": 415.7340143341571
+  },
+  "B_aquanet_flat_msrb-matched_csab-off_seed7": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.67519656009972,
+    "peak_mem_mib": 3943.76953125,
+    "latency_ms_cpu": 455.9575060196221
+  },
+  "B_aquanet_flat_msrb-matched_csab-on_seed21": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.7464618422091,
+    "peak_mem_mib": 3903.275390625,
+    "latency_ms_cpu": 225.51371841691434
+  },
+  "B_aquanet_flat_msrb-matched_csab-on_seed42": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.991687718778849,
+    "peak_mem_mib": 3861.65576171875,
+    "latency_ms_cpu": 426.4491526875645
+  },
+  "B_aquanet_flat_msrb-matched_csab-on_seed7": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.713984640315175,
+    "peak_mem_mib": 3821.0361328125,
+    "latency_ms_cpu": 476.62889387458563
+  },
+  "B_aquanet_flat_msrb-off_csab-off_seed21": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.257217194885015,
+    "peak_mem_mib": 3779.41650390625,
+    "latency_ms_cpu": 367.627764781937
+  },
+  "B_aquanet_flat_msrb-off_csab-off_seed42": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.367775158956647,
+    "peak_mem_mib": 3749.93896484375,
+    "latency_ms_cpu": 1235.172516759485
+  },
+  "B_aquanet_flat_msrb-off_csab-off_seed7": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.06813450343907,
+    "peak_mem_mib": 3719.46142578125,
+    "latency_ms_cpu": 402.5938621070236
+  },
+  "B_aquanet_flat_msrb-off_csab-on_seed21": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 14.987213257700205,
+    "peak_mem_mib": 3690.62451171875,
+    "latency_ms_cpu": 182.45728970505297
+  },
+  "B_aquanet_flat_msrb-off_csab-on_seed42": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.369959082454443,
+    "peak_mem_mib": 3660.380859375,
+    "latency_ms_cpu": 198.8385953847319
+  },
+  "B_aquanet_flat_msrb-off_csab-on_seed7": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.819983296096325,
+    "peak_mem_mib": 3630.77783203125,
+    "latency_ms_cpu": 187.8627351950854
+  },
+  "B_aquanet_flat_msrb-on_csab-off_seed21": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.950519805774093,
+    "peak_mem_mib": 3601.1748046875,
+    "latency_ms_cpu": 108.8579171616584
+  },
+  "B_aquanet_flat_msrb-on_csab-off_seed42": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.735037876293063,
+    "peak_mem_mib": 3560.67919921875,
+    "latency_ms_cpu": 151.28499732352793
+  },
+  "B_aquanet_flat_msrb-on_csab-off_seed7": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.226969998329878,
+    "peak_mem_mib": 3519.50390625,
+    "latency_ms_cpu": 102.87921926006675
+  },
+  "B_aquanet_flat_msrb-on_csab-on_seed21": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.593035463243723,
+    "peak_mem_mib": 3479.18798828125,
+    "latency_ms_cpu": 153.54524264112115
+  },
+  "B_aquanet_flat_msrb-on_csab-on_seed42": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.447687041014433,
+    "peak_mem_mib": 3438.06689453125,
+    "latency_ms_cpu": 245.00739837996662
+  },
+  "B_aquanet_flat_msrb-on_csab-on_seed7": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.262178011238575,
+    "peak_mem_mib": 3396.76611328125,
+    "latency_ms_cpu": 194.08728808164597
+  },
+  "B_aquanet_hier_naive_msrb-matched_csab-off_seed21": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.661374181509018,
+    "peak_mem_mib": 3356.32470703125,
+    "latency_ms_cpu": 105.34600996412337
+  },
+  "B_aquanet_hier_naive_msrb-matched_csab-off_seed42": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.074413623660803,
+    "peak_mem_mib": 3315.33056640625,
+    "latency_ms_cpu": 155.60534551739693
+  },
+  "B_aquanet_hier_naive_msrb-matched_csab-off_seed7": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.677524600178003,
+    "peak_mem_mib": 3273.83642578125,
+    "latency_ms_cpu": 102.9217517003417
+  },
+  "B_aquanet_hier_naive_msrb-matched_csab-on_seed21": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.310081221163273,
+    "peak_mem_mib": 3233.34228515625,
+    "latency_ms_cpu": 157.43672967888415
+  },
+  "B_aquanet_hier_naive_msrb-matched_csab-on_seed42": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.293147843331099,
+    "peak_mem_mib": 3191.72265625,
+    "latency_ms_cpu": 220.0925765838474
+  },
+  "B_aquanet_hier_naive_msrb-matched_csab-on_seed7": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.227425085380673,
+    "peak_mem_mib": 3151.10302734375,
+    "latency_ms_cpu": 209.9628622829914
+  },
+  "B_aquanet_hier_naive_msrb-off_csab-off_seed21": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.445046061649919,
+    "peak_mem_mib": 3109.4833984375,
+    "latency_ms_cpu": 135.20872039720416
+  },
+  "B_aquanet_hier_naive_msrb-off_csab-off_seed42": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.084560168907046,
+    "peak_mem_mib": 3080.005859375,
+    "latency_ms_cpu": 95.78623020090163
+  },
+  "B_aquanet_hier_naive_msrb-off_csab-off_seed7": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 14.571604477241635,
+    "peak_mem_mib": 3049.5283203125,
+    "latency_ms_cpu": 140.02173719927669
+  },
+  "B_aquanet_hier_naive_msrb-off_csab-on_seed21": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.184634840115905,
+    "peak_mem_mib": 3020.05078125,
+    "latency_ms_cpu": 174.79032009840012
+  },
+  "B_aquanet_hier_naive_msrb-off_csab-on_seed42": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.698026195168495,
+    "peak_mem_mib": 2990.44775390625,
+    "latency_ms_cpu": 169.64717933908105
+  },
+  "B_aquanet_hier_naive_msrb-off_csab-on_seed7": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.903199715539813,
+    "peak_mem_mib": 2960.8447265625,
+    "latency_ms_cpu": 182.3593210335821
+  },
+  "B_aquanet_hier_naive_msrb-on_csab-off_seed21": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.973292998969555,
+    "peak_mem_mib": 2931.24169921875,
+    "latency_ms_cpu": 161.52337632142007
+  },
+  "B_aquanet_hier_naive_msrb-on_csab-off_seed42": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.570915266871452,
+    "peak_mem_mib": 2890.74609375,
+    "latency_ms_cpu": 95.22292748093605
+  },
+  "B_aquanet_hier_naive_msrb-on_csab-off_seed7": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.563060957938433,
+    "peak_mem_mib": 2850.25048828125,
+    "latency_ms_cpu": 100.13841485604644
+  },
+  "B_aquanet_hier_naive_msrb-on_csab-on_seed21": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.628196755424142,
+    "peak_mem_mib": 2809.7548828125,
+    "latency_ms_cpu": 173.48920836113393
+  },
+  "B_aquanet_hier_naive_msrb-on_csab-on_seed42": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.29218427464366,
+    "peak_mem_mib": 2768.1337890625,
+    "latency_ms_cpu": 171.51402251794934
+  },
+  "B_aquanet_hier_naive_msrb-on_csab-on_seed7": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 17.019358603283763,
+    "peak_mem_mib": 2727.5126953125,
+    "latency_ms_cpu": 200.99170655943453
+  },
+  "B_aquanet_hier_tf_msrb-matched_csab-off_seed21": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.4666552785784,
+    "peak_mem_mib": 2686.8916015625,
+    "latency_ms_cpu": 179.07942327670753
+  },
+  "B_aquanet_hier_tf_msrb-matched_csab-off_seed42": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.76206156052649,
+    "peak_mem_mib": 2645.3974609375,
+    "latency_ms_cpu": 142.4543674569577
+  },
+  "B_aquanet_hier_tf_msrb-matched_csab-off_seed7": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.436530020087957,
+    "peak_mem_mib": 2604.9033203125,
+    "latency_ms_cpu": 111.80040704086423
+  },
+  "B_aquanet_hier_tf_msrb-matched_csab-on_seed21": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.580073414370418,
+    "peak_mem_mib": 2563.4091796875,
+    "latency_ms_cpu": 200.15400529839098
+  },
+  "B_aquanet_hier_tf_msrb-matched_csab-on_seed42": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.134487003087997,
+    "peak_mem_mib": 2522.78955078125,
+    "latency_ms_cpu": 200.84657445549965
+  },
+  "B_aquanet_hier_tf_msrb-matched_csab-on_seed7": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.843806881457567,
+    "peak_mem_mib": 2481.169921875,
+    "latency_ms_cpu": 162.7391378208995
+  },
+  "B_aquanet_hier_tf_msrb-off_csab-off_seed21": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.38513882085681,
+    "peak_mem_mib": 2439.55029296875,
+    "latency_ms_cpu": 91.59498386085033
+  },
+  "B_aquanet_hier_tf_msrb-off_csab-off_seed42": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.982409045100212,
+    "peak_mem_mib": 2410.07275390625,
+    "latency_ms_cpu": 86.17210236378014
+  },
+  "B_aquanet_hier_tf_msrb-off_csab-off_seed7": {
+    "params_m": 7.614606,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.398158021271229,
+    "peak_mem_mib": 2380.59521484375,
+    "latency_ms_cpu": 96.44223132170737
+  },
+  "B_aquanet_hier_tf_msrb-off_csab-on_seed21": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.039507104083896,
+    "peak_mem_mib": 2350.11767578125,
+    "latency_ms_cpu": 227.48307336121798
+  },
+  "B_aquanet_hier_tf_msrb-off_csab-on_seed42": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.606707414612174,
+    "peak_mem_mib": 2321.1552734375,
+    "latency_ms_cpu": 235.5869679711759
+  },
+  "B_aquanet_hier_tf_msrb-off_csab-on_seed7": {
+    "params_m": 7.647472,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 23.291710000485182,
+    "peak_mem_mib": 2290.91162109375,
+    "latency_ms_cpu": 224.2037830594927
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-off_seed21": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.248859576880932,
+    "peak_mem_mib": 2261.30859375,
+    "latency_ms_cpu": 103.41209568083286
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-off_seed42": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.520736603066325,
+    "peak_mem_mib": 2220.81298828125,
+    "latency_ms_cpu": 161.83268296532333
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-off_seed7": {
+    "params_m": 10.500238,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.459023797884583,
+    "peak_mem_mib": 2180.3173828125,
+    "latency_ms_cpu": 85.84301114082336
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed21": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.808245623484254,
+    "peak_mem_mib": 2139.82177734375,
+    "latency_ms_cpu": 194.99709146097302
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed21_lam0.0": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.48189416155219,
+    "peak_mem_mib": 2098.70068359375,
+    "latency_ms_cpu": 224.5929322950542
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed21_lam0.25": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.209995821118355,
+    "peak_mem_mib": 2057.57958984375,
+    "latency_ms_cpu": 203.26173270121217
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed21_lam0.75": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 17.613776260986924,
+    "peak_mem_mib": 2016.95849609375,
+    "latency_ms_cpu": 234.73569432273507
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed21_lam1.0": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.494039418175817,
+    "peak_mem_mib": 1975.83740234375,
+    "latency_ms_cpu": 239.16335375979543
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed21_uexcl": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.08343088068068,
+    "peak_mem_mib": 1934.71630859375,
+    "latency_ms_cpu": 267.1940993331373
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed42": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.059854300692677,
+    "peak_mem_mib": 1894.09521484375,
+    "latency_ms_cpu": 255.29761182144284
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed42_lam0.0": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.738226482644677,
+    "peak_mem_mib": 1852.97412109375,
+    "latency_ms_cpu": 241.3924035616219
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed42_lam0.25": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 17.39954249933362,
+    "peak_mem_mib": 1811.85302734375,
+    "latency_ms_cpu": 246.53283468447626
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed42_lam0.75": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 17.0303712785244,
+    "peak_mem_mib": 1771.23193359375,
+    "latency_ms_cpu": 260.04214299842715
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed42_lam1.0": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.810540039092302,
+    "peak_mem_mib": 1730.11083984375,
+    "latency_ms_cpu": 227.88538661785424
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed42_uexcl": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.884002139791846,
+    "peak_mem_mib": 1688.98974609375,
+    "latency_ms_cpu": 195.53379830904305
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed7": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.896023623645306,
+    "peak_mem_mib": 1648.36865234375,
+    "latency_ms_cpu": 141.94732252508402
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed7_lam0.0": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.525189461186528,
+    "peak_mem_mib": 1607.24755859375,
+    "latency_ms_cpu": 156.05930698104203
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed7_lam0.25": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.580368097871542,
+    "peak_mem_mib": 1566.12646484375,
+    "latency_ms_cpu": 172.42190369404852
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed7_lam0.75": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.467887204140425,
+    "peak_mem_mib": 1525.50537109375,
+    "latency_ms_cpu": 133.25621199794114
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed7_lam1.0": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 15.469783544540405,
+    "peak_mem_mib": 1484.38427734375,
+    "latency_ms_cpu": 158.62507602199912
+  },
+  "B_aquanet_hier_tf_msrb-on_csab-on_seed7_uexcl": {
+    "params_m": 10.533104,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 16.239615296944976,
+    "peak_mem_mib": 1443.26318359375,
+    "latency_ms_cpu": 199.61383097805083
+  },
+  "C_convnext_tiny_seed21": {
+    "params_m": 27.825511,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.085553098469973,
+    "peak_mem_mib": 1406.93896484375,
+    "latency_ms_cpu": 69.22565422020853
+  },
+  "C_convnext_tiny_seed42": {
+    "params_m": 27.825511,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.199039811268449,
+    "peak_mem_mib": 1299.69091796875,
+    "latency_ms_cpu": 92.41204102523625
+  },
+  "C_convnext_tiny_seed7": {
+    "params_m": 27.825511,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.192078705877066,
+    "peak_mem_mib": 1193.57568359375,
+    "latency_ms_cpu": 61.095669995993376
+  },
+  "C_deit_small_seed21": {
+    "params_m": 21.668359,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 4.797651832923293,
+    "peak_mem_mib": 1076.45068359375,
+    "latency_ms_cpu": 46.81312273256481
+  },
+  "C_deit_small_seed42": {
+    "params_m": 21.668359,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.583784142509103,
+    "peak_mem_mib": 989.1669921875,
+    "latency_ms_cpu": 48.67439012043178
+  },
+  "C_deit_small_seed7": {
+    "params_m": 21.668359,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 4.828587686643004,
+    "peak_mem_mib": 904.38330078125,
+    "latency_ms_cpu": 86.49776862002909
+  },
+  "C_densenet121_seed1337": {
+    "params_m": 6.961031,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 14.993192637339234,
+    "peak_mem_mib": 826.296875,
+    "latency_ms_cpu": 104.74391049705446
+  },
+  "C_densenet121_seed2024": {
+    "params_m": 6.961031,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 14.67102037742734,
+    "peak_mem_mib": 799.3203125,
+    "latency_ms_cpu": 133.47916112281382
+  },
+  "C_densenet121_seed21": {
+    "params_m": 6.961031,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 14.717077016830444,
+    "peak_mem_mib": 772.34375,
+    "latency_ms_cpu": 109.69921952113509
+  },
+  "C_densenet121_seed42": {
+    "params_m": 6.961031,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 14.672720273956656,
+    "peak_mem_mib": 745.3671875,
+    "latency_ms_cpu": 142.96949847601354
+  },
+  "C_densenet121_seed7": {
+    "params_m": 6.961031,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 14.722973704338074,
+    "peak_mem_mib": 718.390625,
+    "latency_ms_cpu": 93.84444678202271
+  },
+  "C_efficientnet_b0_seed21": {
+    "params_m": 4.016515,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 7.1956076845526695,
+    "peak_mem_mib": 693.328125,
+    "latency_ms_cpu": 36.50628728792071
+  },
+  "C_efficientnet_b0_seed42": {
+    "params_m": 4.016515,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 7.272618720307946,
+    "peak_mem_mib": 677.73828125,
+    "latency_ms_cpu": 68.1532480660826
+  },
+  "C_efficientnet_b0_seed7": {
+    "params_m": 4.016515,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 7.139940205961466,
+    "peak_mem_mib": 662.1484375,
+    "latency_ms_cpu": 36.96085882373154
+  },
+  "C_mobilenetv2_seed21": {
+    "params_m": 2.232839,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.216981563717127,
+    "peak_mem_mib": 646.55859375,
+    "latency_ms_cpu": 28.517066575586796
+  },
+  "C_mobilenetv2_seed42": {
+    "params_m": 2.232839,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.157897295430303,
+    "peak_mem_mib": 637.6298828125,
+    "latency_ms_cpu": 29.564224239438772
+  },
+  "C_mobilenetv2_seed7": {
+    "params_m": 2.232839,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.043715555220842,
+    "peak_mem_mib": 628.638671875,
+    "latency_ms_cpu": 29.10010065883398
+  },
+  "C_resnet50_seed21": {
+    "params_m": 23.522375,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.5987143609672785,
+    "peak_mem_mib": 618.44677734375,
+    "latency_ms_cpu": 130.27834017761052
+  },
+  "C_resnet50_seed42": {
+    "params_m": 23.522375,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.522461859509349,
+    "peak_mem_mib": 528.10498046875,
+    "latency_ms_cpu": 74.20666672289371
+  },
+  "C_resnet50_seed7": {
+    "params_m": 23.522375,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 5.646205600351095,
+    "peak_mem_mib": 435.13818359375,
+    "latency_ms_cpu": 74.72532598301768
+  },
+  "C_swin_tiny_seed21": {
+    "params_m": 27.524737,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 8.955442504957318,
+    "peak_mem_mib": 351.7080078125,
+    "latency_ms_cpu": 125.6261663325131
+  },
+  "C_swin_tiny_seed42": {
+    "params_m": 27.524737,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 8.836552314460278,
+    "peak_mem_mib": 243.955078125,
+    "latency_ms_cpu": 73.77647994086146
+  },
+  "C_swin_tiny_seed7": {
+    "params_m": 27.524737,
+    "gflops": null,
+    "gflops_note": "fvcore unavailable (ModuleNotFoundError)",
+    "latency_ms_cuda": 8.874498037621379,
+    "peak_mem_mib": 135.5068359375,
+    "latency_ms_cpu": 72.57684147916734
+  }
+}

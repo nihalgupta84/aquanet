@@ -1,0 +1,249 @@
+{
+  "accuracy": 0.09601873536299765,
+  "macro_precision": 0.013781512605042016,
+  "macro_recall": 0.14285714285714285,
+  "macro_f1": 0.025137952176578788,
+  "weighted_f1": 0.01689600064327427,
+  "per_class": {
+    "clean": {
+      "precision": 0.09647058823529411,
+      "recall": 1.0,
+      "f1": 0.1759656652360515,
+      "support": 41
+    },
+    "algae": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 150
+    },
+    "debris": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 48
+    },
+    "foam": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 40
+    },
+    "oil": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 24
+    },
+    "turbid": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 54
+    },
+    "uncertain": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "support": 70
+    }
+  },
+  "confusion_matrix": [
+    [
+      41,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      150,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      48,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      40,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      24,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      52,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+    ],
+    [
+      70,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  ],
+  "tag": "B_aquanet_hier_tf_msrb-on_csab-on_seed7_lam0.0",
+  "model": "aquanet_v3",
+  "head": "hier_tf",
+  "msrb": "on",
+  "csab": "on",
+  "seed": 7,
+  "stage": "B",
+  "ece_15bin": 0.3767998218536377,
+  "nll": 2.3650171756744385,
+  "latency_ms_per_image": 0.7003107703942653,
+  "params_m": 10.533104,
+  "trainable_params_m": 10.533104,
+  "selected_epoch": 3,
+  "best_val_macro_f1": 0.024652338811630845,
+  "epochs_run": 11,
+  "train_minutes": 1.8102141300837198,
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.3060591220855713,
+      "lr": 0.0001032258064516129
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.264047622680664,
+      "lr": 0.00020322580645161287
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.024652338811630845,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.3444316387176514,
+      "lr": 0.0003
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.024543738200125866,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.30374813079834,
+      "lr": 0.00029898575366129145
+    },
+    {
+      "epoch": 5,
+      "val_macro_f1": 0.024597918637653735,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.295013666152954,
+      "lr": 0.00029595673058697357
+    },
+    {
+      "epoch": 6,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.2746331691741943,
+      "lr": 0.0002909538931178862
+    },
+    {
+      "epoch": 7,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.285346508026123,
+      "lr": 0.0002840448960485118
+    },
+    {
+      "epoch": 8,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.246323347091675,
+      "lr": 0.00027532317171194046
+    },
+    {
+      "epoch": 9,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.288773536682129,
+      "lr": 0.00026490666646784665
+    },
+    {
+      "epoch": 10,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.268723487854004,
+      "lr": 0.00025293624568031
+    },
+    {
+      "epoch": 11,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.253427743911743,
+      "lr": 0.00023957378875541792
+    }
+  ],
+  "config": {
+    "model": "aquanet_v3",
+    "head": "hier_tf",
+    "msrb": "on",
+    "csab": "on",
+    "seed": 7,
+    "stage": "B",
+    "tag": "B_aquanet_hier_tf_msrb-on_csab-on_seed7_lam0.0",
+    "epochs": 30,
+    "patience": 8,
+    "batch": 64,
+    "accum": 1,
+    "eval_batch": 256,
+    "workers": 16,
+    "img_size": 224,
+    "lr": 0.0003,
+    "backbone_lr_mult": 0.1,
+    "warmup_epochs": 3,
+    "weight_decay": 0.05,
+    "clip_grad": 1.0,
+    "loss": "wce",
+    "focal_gamma": 2.0,
+    "balance": "weights",
+    "lambda_mix": 0.0,
+    "uncertain_binary": "contam",
+    "amp": true,
+    "channels_last": true,
+    "scratch": false,
+    "force": false
+  },
+  "env": {
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "gpu": "NVIDIA A100-SXM4-40GB MIG 7g.40gb",
+    "python": "3.10.20",
+    "git_commit": "074670fcbba55df50d959d4b8cb63537e769839f",
+    "git_dirty": true
+  }
+}

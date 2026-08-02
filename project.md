@@ -68,3 +68,7 @@ The GPU suite is resumable but was paused without partial results due to unrelat
 All 12 planned runs completed: three matched seeds each for AquaNet v3, ResNet50, and MobileNetV2, plus seed-42 no-MSRB, no-CSAB, and flat-head substitutions. AquaNet v3 averaged 85.95% accuracy, compared with 86.10% for ResNet50 and 86.03% for MobileNetV2; paired tests found no significant difference. Single-seed substitutions did not validate a positive contribution from every AquaNet component.
 
 The result-derived figures and evidence-aligned IEEE draft are in `paper_v3/`. The manuscript explicitly separates the earlier 90.40% retained run from the matched Phase 3 protocol, withdraws unsupported claims, and foregrounds the real-domain gap and provenance limitations.
+
+## 2026-07-31 — Q1 Dataset-and-Model Paper Reframing
+
+The authoritative plan is now `RESEARCH_PLAN.md`. The paper is reframed around the provisional IrrigWater-7 dataset, a validation-selected AquaNet configuration, a four-family benchmark, domain generalization, robustness, calibration, and explainability. Leakage auditing and reproducibility remain quality-control practices rather than novelty claims. The current short `paper_v3` is an interim artifact and will be replaced only after the expanded evidence gates are satisfied.

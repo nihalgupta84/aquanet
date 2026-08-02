@@ -1,0 +1,94 @@
+{
+  "tag": "E_adapt_50pct_seed21",
+  "source_run": "P_deit_small_seed42",
+  "fraction_pct": 50,
+  "n_adaptation_images": 106,
+  "seed": 21,
+  "adapt_epochs": 10,
+  "before": {
+    "accuracy": 0.5,
+    "accuracy_ci95": [
+      0.4178082191780822,
+      0.5755136986301345
+    ],
+    "macro_f1": 0.5317857456532444,
+    "macro_f1_ci95": [
+      0.4516792880801597,
+      0.5996073459641852
+    ],
+    "per_class": {
+      "clean": {
+        "n": 26,
+        "recall": 0.5384615384615384
+      },
+      "algae": {
+        "n": 20,
+        "recall": 0.7
+      },
+      "debris": {
+        "n": 16,
+        "recall": 0.8125
+      },
+      "foam": {
+        "n": 35,
+        "recall": 0.14285714285714285
+      },
+      "oil": {
+        "n": 14,
+        "recall": 0.42857142857142855
+      },
+      "turbid": {
+        "n": 20,
+        "recall": 0.55
+      },
+      "uncertain": {
+        "n": 15,
+        "recall": 0.6666666666666666
+      }
+    },
+    "binary_false_clean_rate": 0.09166666666666666
+  },
+  "after": {
+    "accuracy": 0.6643835616438356,
+    "accuracy_ci95": [
+      0.589041095890411,
+      0.7397260273972602
+    ],
+    "macro_f1": 0.6554825037578434,
+    "macro_f1_ci95": [
+      0.570588214365129,
+      0.7262637954892429
+    ],
+    "per_class": {
+      "clean": {
+        "n": 26,
+        "recall": 0.5384615384615384
+      },
+      "algae": {
+        "n": 20,
+        "recall": 0.85
+      },
+      "debris": {
+        "n": 16,
+        "recall": 0.6875
+      },
+      "foam": {
+        "n": 35,
+        "recall": 0.7142857142857143
+      },
+      "oil": {
+        "n": 14,
+        "recall": 0.6428571428571429
+      },
+      "turbid": {
+        "n": 20,
+        "recall": 0.8
+      },
+      "uncertain": {
+        "n": 15,
+        "recall": 0.3333333333333333
+      }
+    },
+    "binary_false_clean_rate": 0.05
+  }
+}

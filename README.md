@@ -88,3 +88,7 @@ python inference.py --image path/to/water_sample.jpg --checkpoint checkpoints/aq
 The current evidence-aligned manuscript is `paper_v3/main_v3.tex`. Phase 3 repeats AquaNet v3, ResNet50, and MobileNetV2 over seeds 7, 21, and 42 and includes controlled seed-42 component substitutions, calibration, latency, and duplicate auditing. Machine-readable results are in `phase3_results/`; the reproducible pipeline is `experiments/phase3_pipeline.py`.
 
 The principal Phase 3 finding is that AquaNet v3 (85.95% mean accuracy) is statistically indistinguishable from ResNet50 (86.10%) and MobileNetV2 (86.03%) under the matched protocol. See `PHASE3.md` for scope and limitations. Earlier `paper_v1` and `paper_v2` directories are retained as historical drafts and should not be used as the current evidence record.
+
+## Research roadmap
+
+The authoritative Q1 dataset-and-model study plan is documented in [`RESEARCH_PLAN.md`](RESEARCH_PLAN.md). `paper_v3` is currently an interim reproducibility draft and is not the intended final manuscript.

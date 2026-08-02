@@ -1,0 +1,256 @@
+{
+  "accuracy": 0.8665105386416861,
+  "macro_precision": 0.8261857011588483,
+  "macro_recall": 0.827716341279059,
+  "macro_f1": 0.82222192584313,
+  "weighted_f1": 0.8693927829086701,
+  "per_class": {
+    "clean": {
+      "precision": 0.6428571428571429,
+      "recall": 0.8780487804878049,
+      "f1": 0.7422680412371134,
+      "support": 41
+    },
+    "algae": {
+      "precision": 1.0,
+      "recall": 0.9533333333333334,
+      "f1": 0.9761092150170648,
+      "support": 150
+    },
+    "debris": {
+      "precision": 0.7543859649122807,
+      "recall": 0.8958333333333334,
+      "f1": 0.819047619047619,
+      "support": 48
+    },
+    "foam": {
+      "precision": 0.9142857142857143,
+      "recall": 0.8,
+      "f1": 0.8533333333333334,
+      "support": 40
+    },
+    "oil": {
+      "precision": 0.6818181818181818,
+      "recall": 0.625,
+      "f1": 0.6521739130434783,
+      "support": 24
+    },
+    "turbid": {
+      "precision": 0.9591836734693877,
+      "recall": 0.8703703703703703,
+      "f1": 0.912621359223301,
+      "support": 54
+    },
+    "uncertain": {
+      "precision": 0.8307692307692308,
+      "recall": 0.7714285714285715,
+      "f1": 0.8,
+      "support": 70
+    }
+  },
+  "confusion_matrix": [
+    [
+      36,
+      0,
+      1,
+      0,
+      1,
+      0,
+      3
+    ],
+    [
+      2,
+      143,
+      3,
+      0,
+      1,
+      0,
+      1
+    ],
+    [
+      3,
+      0,
+      43,
+      0,
+      0,
+      1,
+      1
+    ],
+    [
+      3,
+      0,
+      3,
+      32,
+      0,
+      1,
+      1
+    ],
+    [
+      2,
+      0,
+      1,
+      1,
+      15,
+      0,
+      5
+    ],
+    [
+      2,
+      0,
+      4,
+      1,
+      0,
+      47,
+      0
+    ],
+    [
+      8,
+      0,
+      2,
+      1,
+      5,
+      0,
+      54
+    ]
+  ],
+  "tag": "B_aquanet_hier_tf_msrb-on_csab-on_seed21",
+  "model": "aquanet_v3",
+  "head": "hier_tf",
+  "msrb": "on",
+  "csab": "on",
+  "seed": 21,
+  "stage": "B",
+  "ece_15bin": 0.13822460174560547,
+  "nll": 0.49627968668937683,
+  "latency_ms_per_image": 0.6199287559408799,
+  "params_m": 10.533104,
+  "trainable_params_m": 10.533104,
+  "selected_epoch": 4,
+  "best_val_macro_f1": 0.8557652136434252,
+  "epochs_run": 12,
+  "train_minutes": 2.1298667470614117,
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.112151622772217,
+      "lr": 0.0001032258064516129
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.6272687690235867,
+      "val_accuracy": 0.6682692170143127,
+      "val_nll": 0.9955446720123291,
+      "lr": 0.00020322580645161287
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.7886928134187501,
+      "val_accuracy": 0.8317307829856873,
+      "val_nll": 0.6491215825080872,
+      "lr": 0.0003
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.8557652136434252,
+      "val_accuracy": 0.8894230723381042,
+      "val_nll": 0.5011506080627441,
+      "lr": 0.00029898575366129145
+    },
+    {
+      "epoch": 5,
+      "val_macro_f1": 0.8400617297751657,
+      "val_accuracy": 0.879807710647583,
+      "val_nll": 0.42541757225990295,
+      "lr": 0.00029595673058697357
+    },
+    {
+      "epoch": 6,
+      "val_macro_f1": 0.8530255776683475,
+      "val_accuracy": 0.8846153616905212,
+      "val_nll": 0.4004708528518677,
+      "lr": 0.0002909538931178862
+    },
+    {
+      "epoch": 7,
+      "val_macro_f1": 0.8495908165150643,
+      "val_accuracy": 0.8846153616905212,
+      "val_nll": 0.3982197940349579,
+      "lr": 0.0002840448960485118
+    },
+    {
+      "epoch": 8,
+      "val_macro_f1": 0.8276944330660171,
+      "val_accuracy": 0.8677884340286255,
+      "val_nll": 0.4099070131778717,
+      "lr": 0.00027532317171194046
+    },
+    {
+      "epoch": 9,
+      "val_macro_f1": 0.8469193733643893,
+      "val_accuracy": 0.8870192170143127,
+      "val_nll": 0.3595413565635681,
+      "lr": 0.00026490666646784665
+    },
+    {
+      "epoch": 10,
+      "val_macro_f1": 0.8362229510327195,
+      "val_accuracy": 0.879807710647583,
+      "val_nll": 0.39495009183883667,
+      "lr": 0.00025293624568031
+    },
+    {
+      "epoch": 11,
+      "val_macro_f1": 0.8506039983189959,
+      "val_accuracy": 0.8822115659713745,
+      "val_nll": 0.36120516061782837,
+      "lr": 0.00023957378875541792
+    },
+    {
+      "epoch": 12,
+      "val_macro_f1": 0.8511342509877486,
+      "val_accuracy": 0.8846153616905212,
+      "val_nll": 0.3777872323989868,
+      "lr": 0.000225
+    }
+  ],
+  "config": {
+    "model": "aquanet_v3",
+    "head": "hier_tf",
+    "msrb": "on",
+    "csab": "on",
+    "seed": 21,
+    "stage": "B",
+    "tag": "B_aquanet_hier_tf_msrb-on_csab-on_seed21",
+    "epochs": 30,
+    "patience": 8,
+    "batch": 64,
+    "accum": 1,
+    "eval_batch": 256,
+    "workers": 16,
+    "img_size": 224,
+    "lr": 0.0003,
+    "backbone_lr_mult": 0.1,
+    "warmup_epochs": 3,
+    "weight_decay": 0.05,
+    "clip_grad": 1.0,
+    "loss": "wce",
+    "focal_gamma": 2.0,
+    "balance": "weights",
+    "lambda_mix": 0.5,
+    "uncertain_binary": "contam",
+    "amp": true,
+    "channels_last": true,
+    "scratch": false,
+    "force": false
+  },
+  "env": {
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "gpu": "NVIDIA A100-SXM4-40GB MIG 7g.40gb",
+    "python": "3.10.20",
+    "git_commit": "074670fcbba55df50d959d4b8cb63537e769839f",
+    "git_dirty": true
+  }
+}

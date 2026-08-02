@@ -40,3 +40,8 @@ corpus/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# experiment runner artifacts
+.runstate/
+logs/
+checkpoints/phase4/

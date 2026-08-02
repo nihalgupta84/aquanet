@@ -117,7 +117,25 @@ def train_one(name,variant,seed,epochs=30,batch=16):
     p=torch.cat(allp); y=torch.cat(ally); m=compute_metrics(y,p.argmax(1),CLASSES)
     m.update({'ece_15bin':ece(p,y),'nll':float(nn.functional.nll_loss(torch.log(p+1e-7),y)),'latency_ms_per_image':float(np.mean(lat)),
               'params_m':sum(q.numel() for q in model.parameters())/1e6,'model':name,'variant':variant,'seed':seed,'history':history})
-    dump(f'{name}_{variant}_seed{seed}.json',m); return m
+    dump(f'{name}_{variant}_seed{seed}.json',m)
+    # RESEARCH_PLAN.md sec.9: per-image IDs/labels/probabilities/predictions must be saved.
+    # Eval-time only; does not touch training and cannot change any metric above.
+    save_predictions(f'{name}_{variant}_seed{seed}',test,y,p,{'model':name,'variant':variant,'seed':seed,'protocol':'phase3'})
+    return m
+
+PRED=ROOT/'predictions'/'phase3'
+
+def save_predictions(tag,dataset,y,p,meta):
+    """Write per-image predictions for McNemar / bootstrap (RESEARCH_PLAN.md sec.9)."""
+    PRED.mkdir(parents=True,exist_ok=True)
+    paths=[str(Path(s[0]).relative_to(ROOT)) for s in dataset.samples]
+    assert len(paths)==len(y), f'{len(paths)} paths vs {len(y)} labels: eval loader order is not dataset order'
+    rec={'meta':meta,'classes':list(CLASSES),
+         'image_path':paths,'y_true':[int(v) for v in y.tolist()],
+         'y_pred':[int(v) for v in p.argmax(1).tolist()],
+         'y_prob':[[round(float(v),6) for v in row] for row in p.tolist()]}
+    (PRED/f'{tag}.json').write_text(json.dumps(rec))
+    print(f'[preds] wrote {PRED/f"{tag}.json"} ({len(paths)} images)',flush=True)
 
 def aggregate():
     rows=[]
@@ -140,12 +158,32 @@ def aggregate():
             stats[base]={'paired_t_p':float(ttest_rel(a,b).pvalue),'wilcoxon_p':float(wilcoxon(a,b).pvalue),'mean_difference':float((a-b).mean())}
     out={'runs':rows,'summary':summary,'paired_statistics':stats}; dump('phase3_summary.json',out); return out
 
+JOBS=[('aquanet_v3','full',s) for s in (7,21,42)]+[('resnet50','full',s) for s in (7,21,42)]+[('mobilenetv2','full',s) for s in (7,21,42)]+[('aquanet_v3',v,s) for v in ('no_msrb','no_csab','flat') for s in (7,21,42)]
+
 def main():
-    ap=argparse.ArgumentParser(); ap.add_argument('--audit-only',action='store_true'); a=ap.parse_args(); audit()
-    if a.audit_only:return
-    jobs=[('aquanet_v3','full',s) for s in (7,21,42)]+[('resnet50','full',s) for s in (7,21,42)]+[('mobilenetv2','full',s) for s in (7,21,42)]+[('aquanet_v3',v,42) for v in ('no_msrb','no_csab','flat')]
-    for j in jobs:
-        target=OUT/f'{j[0]}_{j[1]}_seed{j[2]}.json'
-        if not target.exists(): train_one(*j)
+    ap=argparse.ArgumentParser()
+    ap.add_argument('--audit-only',action='store_true')
+    ap.add_argument('--no-audit',action='store_true',help='skip the O(n^2) dHash audit (it is already in dataset_audit.json)')
+    ap.add_argument('--list-missing',action='store_true',help='print jobs with no result JSON, one "model variant seed" per line, then exit')
+    ap.add_argument('--model'); ap.add_argument('--variant'); ap.add_argument('--seed',type=int)
+    ap.add_argument('--aggregate-only',action='store_true')
+    a=ap.parse_args()
+    if a.list_missing:
+        for m,v,s in JOBS:
+            if not (OUT/f'{m}_{v}_seed{s}.json').exists(): print(f'{m} {v} {s}')
+        return
+    if a.aggregate_only: aggregate(); return
+    if not a.no_audit: audit()
+    if a.audit_only: return
+    # Single-job mode: lets an external runner execute jobs in parallel.
+    # NOTE: batch=16 and num_workers=4 are LOCKED here. The 12 completed runs used them,
+    # and both alter results (batch changes the gradient; worker count changes the
+    # augmentation RNG streams). Changing either breaks seed-matched comparability.
+    if a.model:
+        target=OUT/f'{a.model}_{a.variant}_seed{a.seed}.json'
+        if target.exists(): print(f'[skip] {target.name} exists'); return
+        train_one(a.model,a.variant,a.seed); return
+    for j in JOBS:
+        if not (OUT/f'{j[0]}_{j[1]}_seed{j[2]}.json').exists(): train_one(*j)
     aggregate()
 if __name__=='__main__':main()

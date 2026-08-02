@@ -1,0 +1,302 @@
+{
+  "P_aquanet-flat-off-off_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Sequential",
+    "n_examples": 16,
+    "mean_activation_area": 0.18535380065441132
+  },
+  "P_aquanet-flat-off-off_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Sequential",
+    "n_examples": 16,
+    "mean_activation_area": 0.18996009230613708
+  },
+  "P_aquanet-flat-off-off_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Sequential",
+    "n_examples": 16,
+    "mean_activation_area": 0.18321633338928223
+  },
+  "P_aquanet-flat-off-off_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Sequential",
+    "n_examples": 16,
+    "mean_activation_area": 0.16292151808738708
+  },
+  "P_aquanet-flat-off-off_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Sequential",
+    "n_examples": 16,
+    "mean_activation_area": 0.21131865680217743
+  },
+  "P_aquanet-flat-on-on_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "CSAB",
+    "n_examples": 16,
+    "mean_activation_area": 0.3128126561641693
+  },
+  "P_aquanet-flat-on-on_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "CSAB",
+    "n_examples": 16,
+    "mean_activation_area": 0.22350949048995972
+  },
+  "P_aquanet-flat-on-on_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "CSAB",
+    "n_examples": 16,
+    "mean_activation_area": 0.22228629887104034
+  },
+  "P_aquanet-flat-on-on_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "CSAB",
+    "n_examples": 16,
+    "mean_activation_area": 0.19898831844329834
+  },
+  "P_aquanet-flat-on-on_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "CSAB",
+    "n_examples": 16,
+    "mean_activation_area": 0.20833665132522583
+  },
+  "P_aquanet-hier_tf-on-off_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "MSRB",
+    "n_examples": 16,
+    "mean_activation_area": 0.4371238350868225
+  },
+  "P_aquanet-hier_tf-on-off_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "MSRB",
+    "n_examples": 16,
+    "mean_activation_area": 0.33016157150268555
+  },
+  "P_aquanet-hier_tf-on-off_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "MSRB",
+    "n_examples": 16,
+    "mean_activation_area": 0.32942792773246765
+  },
+  "P_aquanet-hier_tf-on-off_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "MSRB",
+    "n_examples": 16,
+    "mean_activation_area": 0.37334582209587097
+  },
+  "P_aquanet-hier_tf-on-off_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "MSRB",
+    "n_examples": 16,
+    "mean_activation_area": 0.34722650051116943
+  },
+  "P_convnext_tiny_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.3737469017505646
+  },
+  "P_convnext_tiny_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.3103475868701935
+  },
+  "P_convnext_tiny_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.3016095757484436
+  },
+  "P_convnext_tiny_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.3757050037384033
+  },
+  "P_convnext_tiny_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.3310360014438629
+  },
+  "P_deit_small_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.14243488013744354
+  },
+  "P_deit_small_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.08786073327064514
+  },
+  "P_deit_small_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.09001190960407257
+  },
+  "P_deit_small_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.0841500386595726
+  },
+  "P_deit_small_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.12405582517385483
+  },
+  "P_densenet121_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.24052584171295166
+  },
+  "P_densenet121_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.20323586463928223
+  },
+  "P_densenet121_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.23887291550636292
+  },
+  "P_densenet121_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.2301274538040161
+  },
+  "P_densenet121_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.22168093919754028
+  },
+  "P_efficientnet_b0_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.34518370032310486
+  },
+  "P_efficientnet_b0_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.37821245193481445
+  },
+  "P_efficientnet_b0_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.3561762571334839
+  },
+  "P_efficientnet_b0_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.4781681001186371
+  },
+  "P_efficientnet_b0_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.3792612552642822
+  },
+  "P_mobilenetv2_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.3830317258834839
+  },
+  "P_mobilenetv2_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.38716965913772583
+  },
+  "P_mobilenetv2_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.4053419530391693
+  },
+  "P_mobilenetv2_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.4178354740142822
+  },
+  "P_mobilenetv2_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.40942633152008057
+  },
+  "P_resnet50_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.20538952946662903
+  },
+  "P_resnet50_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.2251051366329193
+  },
+  "P_resnet50_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.24491539597511292
+  },
+  "P_resnet50_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.26272520422935486
+  },
+  "P_resnet50_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.23076395690441132
+  },
+  "P_swin_tiny_seed1337": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.030086595565080643
+  },
+  "P_swin_tiny_seed2024": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.07309022545814514
+  },
+  "P_swin_tiny_seed21": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.012746382504701614
+  },
+  "P_swin_tiny_seed42": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.08596241474151611
+  },
+  "P_swin_tiny_seed7": {
+    "method": "Grad-CAM and Grad-CAM++ (true gradients w.r.t. the target logit)",
+    "layer": "Conv2d",
+    "n_examples": 16,
+    "mean_activation_area": 0.06768051534891129
+  }
+}

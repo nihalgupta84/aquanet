@@ -1,0 +1,235 @@
+{
+  "accuracy": 0.8337236533957846,
+  "macro_precision": 0.788296234583631,
+  "macro_recall": 0.7862593790903896,
+  "macro_f1": 0.7817901144200616,
+  "weighted_f1": 0.8374591262651904,
+  "per_class": {
+    "clean": {
+      "precision": 0.6341463414634146,
+      "recall": 0.6341463414634146,
+      "f1": 0.6341463414634146,
+      "support": 41
+    },
+    "algae": {
+      "precision": 1.0,
+      "recall": 0.9533333333333334,
+      "f1": 0.9761092150170648,
+      "support": 150
+    },
+    "debris": {
+      "precision": 0.75,
+      "recall": 0.9375,
+      "f1": 0.8333333333333334,
+      "support": 48
+    },
+    "foam": {
+      "precision": 0.9142857142857143,
+      "recall": 0.8,
+      "f1": 0.8533333333333334,
+      "support": 40
+    },
+    "oil": {
+      "precision": 0.5517241379310345,
+      "recall": 0.6666666666666666,
+      "f1": 0.6037735849056604,
+      "support": 24
+    },
+    "turbid": {
+      "precision": 0.975609756097561,
+      "recall": 0.7407407407407407,
+      "f1": 0.8421052631578947,
+      "support": 54
+    },
+    "uncertain": {
+      "precision": 0.6923076923076923,
+      "recall": 0.7714285714285715,
+      "f1": 0.7297297297297297,
+      "support": 70
+    }
+  },
+  "confusion_matrix": [
+    [
+      26,
+      0,
+      2,
+      0,
+      1,
+      0,
+      12
+    ],
+    [
+      1,
+      143,
+      4,
+      1,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      45,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      0,
+      3,
+      32,
+      3,
+      0,
+      2
+    ],
+    [
+      1,
+      0,
+      0,
+      0,
+      16,
+      0,
+      7
+    ],
+    [
+      7,
+      0,
+      5,
+      1,
+      0,
+      40,
+      1
+    ],
+    [
+      4,
+      0,
+      1,
+      1,
+      9,
+      1,
+      54
+    ]
+  ],
+  "tag": "T_deit_small_lr1e-3_bm1.0",
+  "model": "deit_small",
+  "head": "flat",
+  "msrb": "on",
+  "csab": "on",
+  "seed": 42,
+  "stage": "T",
+  "ece_15bin": 0.07581888884305954,
+  "nll": 0.4796580672264099,
+  "latency_ms_per_image": 0.25993838923371754,
+  "params_m": 21.668359,
+  "trainable_params_m": 21.668359,
+  "selected_epoch": 1,
+  "best_val_macro_f1": 0.8462348869912846,
+  "epochs_run": 9,
+  "train_minutes": 1.42612544298172,
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.8462348869912846,
+      "val_accuracy": 0.870192289352417,
+      "val_nll": 0.4655812680721283,
+      "lr": 0.0003440860215053764
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.7844095505880636,
+      "val_accuracy": 0.8365384340286255,
+      "val_nll": 0.4913213849067688,
+      "lr": 0.0006774193548387097
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.7191666086832399,
+      "val_accuracy": 0.7836538553237915,
+      "val_nll": 0.6904988884925842,
+      "lr": 0.001
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.6913587901630366,
+      "val_accuracy": 0.7668269276618958,
+      "val_nll": 0.6515225768089294,
+      "lr": 0.0009966191788709714
+    },
+    {
+      "epoch": 5,
+      "val_macro_f1": 0.7283849327371146,
+      "val_accuracy": 0.7908653616905212,
+      "val_nll": 0.6291971802711487,
+      "lr": 0.0009865224352899118
+    },
+    {
+      "epoch": 6,
+      "val_macro_f1": 0.8099049864567106,
+      "val_accuracy": 0.8557692170143127,
+      "val_nll": 0.4677693545818329,
+      "lr": 0.0009698463103929542
+    },
+    {
+      "epoch": 7,
+      "val_macro_f1": 0.6724227340851969,
+      "val_accuracy": 0.7932692170143127,
+      "val_nll": 0.6175212860107422,
+      "lr": 0.0009468163201617061
+    },
+    {
+      "epoch": 8,
+      "val_macro_f1": 0.8116611873016873,
+      "val_accuracy": 0.8557692170143127,
+      "val_nll": 0.5285988450050354,
+      "lr": 0.0009177439057064682
+    },
+    {
+      "epoch": 9,
+      "val_macro_f1": 0.7178604716981798,
+      "val_accuracy": 0.78125,
+      "val_nll": 0.6918067932128906,
+      "lr": 0.000883022221559489
+    }
+  ],
+  "config": {
+    "model": "deit_small",
+    "head": "flat",
+    "msrb": "on",
+    "csab": "on",
+    "seed": 42,
+    "stage": "T",
+    "tag": "T_deit_small_lr1e-3_bm1.0",
+    "epochs": 30,
+    "patience": 8,
+    "batch": 64,
+    "accum": 1,
+    "eval_batch": 256,
+    "workers": 16,
+    "img_size": 224,
+    "lr": 0.001,
+    "backbone_lr_mult": 1.0,
+    "warmup_epochs": 3,
+    "weight_decay": 0.05,
+    "clip_grad": 1.0,
+    "loss": "wce",
+    "focal_gamma": 2.0,
+    "balance": "weights",
+    "lambda_mix": 0.5,
+    "uncertain_binary": "contam",
+    "amp": true,
+    "channels_last": true,
+    "scratch": false,
+    "force": false
+  },
+  "env": {
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "gpu": "NVIDIA A100-SXM4-40GB MIG 7g.40gb",
+    "python": "3.10.20",
+    "git_commit": "074670fcbba55df50d959d4b8cb63537e769839f",
+    "git_dirty": true
+  }
+}

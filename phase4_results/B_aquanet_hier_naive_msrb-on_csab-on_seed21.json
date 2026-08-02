@@ -1,0 +1,277 @@
+{
+  "accuracy": 0.8805620608899297,
+  "macro_precision": 0.8416845217132897,
+  "macro_recall": 0.8509309957045147,
+  "macro_f1": 0.8414863748384686,
+  "weighted_f1": 0.8826261623241437,
+  "per_class": {
+    "clean": {
+      "precision": 0.723404255319149,
+      "recall": 0.8292682926829268,
+      "f1": 0.7727272727272727,
+      "support": 41
+    },
+    "algae": {
+      "precision": 1.0,
+      "recall": 0.9666666666666667,
+      "f1": 0.9830508474576272,
+      "support": 150
+    },
+    "debris": {
+      "precision": 0.8780487804878049,
+      "recall": 0.75,
+      "f1": 0.8089887640449438,
+      "support": 48
+    },
+    "foam": {
+      "precision": 0.9696969696969697,
+      "recall": 0.8,
+      "f1": 0.8767123287671232,
+      "support": 40
+    },
+    "oil": {
+      "precision": 0.625,
+      "recall": 0.8333333333333334,
+      "f1": 0.7142857142857143,
+      "support": 24
+    },
+    "turbid": {
+      "precision": 0.8813559322033898,
+      "recall": 0.9629629629629629,
+      "f1": 0.9203539823008849,
+      "support": 54
+    },
+    "uncertain": {
+      "precision": 0.8142857142857143,
+      "recall": 0.8142857142857143,
+      "f1": 0.8142857142857143,
+      "support": 70
+    }
+  },
+  "confusion_matrix": [
+    [
+      34,
+      0,
+      2,
+      0,
+      0,
+      1,
+      4
+    ],
+    [
+      1,
+      145,
+      0,
+      0,
+      1,
+      0,
+      3
+    ],
+    [
+      6,
+      0,
+      36,
+      1,
+      1,
+      4,
+      0
+    ],
+    [
+      2,
+      0,
+      2,
+      32,
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20,
+      0,
+      4
+    ],
+    [
+      1,
+      0,
+      1,
+      0,
+      0,
+      52,
+      0
+    ],
+    [
+      3,
+      0,
+      0,
+      0,
+      10,
+      0,
+      57
+    ]
+  ],
+  "tag": "B_aquanet_hier_naive_msrb-on_csab-on_seed21",
+  "model": "aquanet_v3",
+  "head": "hier_naive",
+  "msrb": "on",
+  "csab": "on",
+  "seed": 21,
+  "stage": "B",
+  "ece_15bin": 0.10097636282444,
+  "nll": 0.3809111416339874,
+  "latency_ms_per_image": 0.6438186775824639,
+  "params_m": 10.533104,
+  "trainable_params_m": 10.533104,
+  "selected_epoch": 7,
+  "best_val_macro_f1": 0.8643199825516957,
+  "epochs_run": 15,
+  "train_minutes": 2.209455096721649,
+  "history": [
+    {
+      "epoch": 1,
+      "val_macro_f1": 0.024489795918367346,
+      "val_accuracy": 0.09375,
+      "val_nll": 2.1159448623657227,
+      "lr": 0.0001032258064516129
+    },
+    {
+      "epoch": 2,
+      "val_macro_f1": 0.614955933829482,
+      "val_accuracy": 0.5528846383094788,
+      "val_nll": 1.0561212301254272,
+      "lr": 0.00020322580645161287
+    },
+    {
+      "epoch": 3,
+      "val_macro_f1": 0.7944149859170803,
+      "val_accuracy": 0.8293269276618958,
+      "val_nll": 0.6772884726524353,
+      "lr": 0.0003
+    },
+    {
+      "epoch": 4,
+      "val_macro_f1": 0.8481764353745758,
+      "val_accuracy": 0.879807710647583,
+      "val_nll": 0.5245299935340881,
+      "lr": 0.00029898575366129145
+    },
+    {
+      "epoch": 5,
+      "val_macro_f1": 0.8310971964543394,
+      "val_accuracy": 0.8725961446762085,
+      "val_nll": 0.4559280574321747,
+      "lr": 0.00029595673058697357
+    },
+    {
+      "epoch": 6,
+      "val_macro_f1": 0.8457929967746038,
+      "val_accuracy": 0.875,
+      "val_nll": 0.4321022033691406,
+      "lr": 0.0002909538931178862
+    },
+    {
+      "epoch": 7,
+      "val_macro_f1": 0.8643199825516957,
+      "val_accuracy": 0.8894230723381042,
+      "val_nll": 0.4000188708305359,
+      "lr": 0.0002840448960485118
+    },
+    {
+      "epoch": 8,
+      "val_macro_f1": 0.833842935069729,
+      "val_accuracy": 0.8725961446762085,
+      "val_nll": 0.39541810750961304,
+      "lr": 0.00027532317171194046
+    },
+    {
+      "epoch": 9,
+      "val_macro_f1": 0.8570745790673088,
+      "val_accuracy": 0.8918269276618958,
+      "val_nll": 0.3692987561225891,
+      "lr": 0.00026490666646784665
+    },
+    {
+      "epoch": 10,
+      "val_macro_f1": 0.8346010911741661,
+      "val_accuracy": 0.879807710647583,
+      "val_nll": 0.39039796590805054,
+      "lr": 0.00025293624568031
+    },
+    {
+      "epoch": 11,
+      "val_macro_f1": 0.8564725117347802,
+      "val_accuracy": 0.8870192170143127,
+      "val_nll": 0.36682599782943726,
+      "lr": 0.00023957378875541792
+    },
+    {
+      "epoch": 12,
+      "val_macro_f1": 0.8591600003956267,
+      "val_accuracy": 0.8894230723381042,
+      "val_nll": 0.36341172456741333,
+      "lr": 0.000225
+    },
+    {
+      "epoch": 13,
+      "val_macro_f1": 0.8474651238203161,
+      "val_accuracy": 0.8822115659713745,
+      "val_nll": 0.40679624676704407,
+      "lr": 0.0002094119649058735
+    },
+    {
+      "epoch": 14,
+      "val_macro_f1": 0.8638831376792712,
+      "val_accuracy": 0.8918269276618958,
+      "val_nll": 0.3740776479244232,
+      "lr": 0.00019302048490666353
+    },
+    {
+      "epoch": 15,
+      "val_macro_f1": 0.8511593911404624,
+      "val_accuracy": 0.8846153616905212,
+      "val_nll": 0.3686870336532593,
+      "lr": 0.00017604722665003956
+    }
+  ],
+  "config": {
+    "model": "aquanet_v3",
+    "head": "hier_naive",
+    "msrb": "on",
+    "csab": "on",
+    "seed": 21,
+    "stage": "B",
+    "tag": "B_aquanet_hier_naive_msrb-on_csab-on_seed21",
+    "epochs": 30,
+    "patience": 8,
+    "batch": 64,
+    "accum": 1,
+    "eval_batch": 256,
+    "workers": 16,
+    "img_size": 224,
+    "lr": 0.0003,
+    "backbone_lr_mult": 0.1,
+    "warmup_epochs": 3,
+    "weight_decay": 0.05,
+    "clip_grad": 1.0,
+    "loss": "wce",
+    "focal_gamma": 2.0,
+    "balance": "weights",
+    "lambda_mix": 0.5,
+    "uncertain_binary": "contam",
+    "amp": true,
+    "channels_last": true,
+    "scratch": false,
+    "force": false
+  },
+  "env": {
+    "torch": "2.6.0+cu124",
+    "cuda": "12.4",
+    "gpu": "NVIDIA A100-SXM4-40GB MIG 7g.40gb",
+    "python": "3.10.20",
+    "git_commit": "074670fcbba55df50d959d4b8cb63537e769839f",
+    "git_dirty": true
+  }
+}
