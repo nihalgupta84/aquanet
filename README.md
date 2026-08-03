@@ -1,10 +1,16 @@
-# AquaNet: Attention-Guided Multi-Scale Vision Architecture for Water Quality Monitoring
+# AquaNet: Controlled Visual Water-Condition Benchmarking
 
 [![Python 3.10](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
 [![PyTorch 2.6](https://img.shields.io/badge/pytorch-2.6.0-orange.svg)](https://pytorch.org/)
 [![CUDA 12.4](https://img.shields.io/badge/cuda-12.4-green.svg)](https://developer.nvidia.com/cuda-toolkit)
 
-Production-grade modular PyTorch codebase for training, evaluating, and deploying **AquaNet v3** and baseline computer vision models for 7-class water contamination monitoring (Clean, Algae, Debris, Foam, Oil, Turbid, Uncertain).
+PyTorch research code and completed evidence package for seven-class visual water-surface condition recognition (Clean, Algae, Debris, Foam, Oil, Turbid, Uncertain). RGB appearance is not a physicochemical water-quality measurement.
+
+## Current result and manuscript
+
+Phase 4 is complete: 222 successful training runs plus calibration, abstention, corruption, transfer, and explanation evaluations. The central result is a protocol effect: forcing unlike pretrained and custom models to share hyperparameter values reversed their ranking. With an equal per-model tuning budget, AquaNet-full ranks ninth of ten and its added MSRB/CSAB modules are null-to-negative.
+
+The current manuscript is [`paper_final/main.tex`](paper_final/main.tex), with compiled PDF at [`paper_final/main.pdf`](paper_final/main.pdf). The immutable narrative and full result tables are in [`AQUANET_Q4_PLAN.md`](AQUANET_Q4_PLAN.md); `paper_v1`, `paper_v2`, and `paper_v3` are historical drafts only.
 
 ---
 
@@ -83,12 +89,12 @@ python inference.py --image path/to/water_sample.jpg --checkpoint checkpoints/aq
 
 ---
 
-## Phase 3 reproducibility study
+## Phase 3 reproducibility study (historical)
 
-The current evidence-aligned manuscript is `paper_v3/main_v3.tex`. Phase 3 repeats AquaNet v3, ResNet50, and MobileNetV2 over seeds 7, 21, and 42 and includes controlled seed-42 component substitutions, calibration, latency, and duplicate auditing. Machine-readable results are in `phase3_results/`; the reproducible pipeline is `experiments/phase3_pipeline.py`.
+The Phase 3 manuscript is superseded by Phase 4. It is retained because its shared-hyperparameter protocol is primary evidence for the ranking reversal. Machine-readable results are in `phase3_results/`; the historical pipeline is `experiments/phase3_pipeline.py`.
 
 The principal Phase 3 finding is that AquaNet v3 (85.95% mean accuracy) is statistically indistinguishable from ResNet50 (86.10%) and MobileNetV2 (86.03%) under the matched protocol. See `PHASE3.md` for scope and limitations. Earlier `paper_v1` and `paper_v2` directories are retained as historical drafts and should not be used as the current evidence record.
 
-## Research roadmap
+## Research record
 
-The authoritative Q1 dataset-and-model study plan is documented in [`RESEARCH_PLAN.md`](RESEARCH_PLAN.md). `paper_v3` is currently an interim reproducibility draft and is not the intended final manuscript.
+The completed Q4 programme and evidence rules are documented in [`AQUANET_Q4_PLAN.md`](AQUANET_Q4_PLAN.md). `RESEARCH_PLAN.md` records the earlier, superseded Q1 plan.

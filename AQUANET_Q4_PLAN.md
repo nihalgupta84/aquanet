@@ -5,7 +5,7 @@ Scope: `/workspace/projects/vision/aquanet` **only**. No other project is refere
 Constraints in force: no new data of any kind; no field collection (future work); Q4 journal target.
 Relationship to other documents: this supersedes `RESEARCH_PLAN.md` §19 (execution order) and narrows §7/§11/§12 to a Q4 budget. `RESEARCH_PLAN.md` §18 (evidence rules) stays in force verbatim. `PUBLICATION_STRATEGY.md` §3/§4/§6/§7 are withdrawn.
 
-**Status: the experiment programme is complete.** 222 phase-4 training runs plus five evaluation stages, zero outstanding failures. What remains is writing.
+**Status: complete.** 222 phase-4 training runs plus five evaluation stages finished with zero outstanding failures. The evidence-aligned manuscript, bibliography, figures, and compiled PDF are in `paper_final/`. Earlier paper drafts are withdrawn as current evidence records.
 
 > **This document originally opened with the claim "two AquaNet configurations already beat both baselines." That claim is refuted.** The superseded text is preserved in §0.1 rather than deleted, because the reason it was wrong is now the paper's central finding. A plan that had been quietly edited to match its outcome would be worth less than one that records what it predicted.
 
