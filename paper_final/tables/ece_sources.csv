@@ -1,0 +1,11 @@
+Model,Training pipeline,Evaluation suite,|Delta|
+EfficientNet-B0,.07681,.07634,0.00047
+MobileNetV2,.08833,.08789,0.00044
+ConvNeXt-T,.06048,.06077,0.00028
+AquaNet-full,.06972,.06997,0.00025
+DenseNet-121,.06029,.06053,0.00024
+ResNet-50,.06435,.06421,0.00013
+DeiT-S,.06211,.06209,0.00002
+Swin-T,.05278,.05277,0.00001
+AquaNet-hier,.06919,.06919,0.00001
+AquaNet-no-neck,.03970,.03970,0.00000

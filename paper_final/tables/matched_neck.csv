@@ -1,0 +1,4 @@
+Comparison,n pairs,Delta mf{},Wins
+MSRB vs.\ MatchedNeck (capacity held constant),18,-0.0018,6/18
+MSRB vs.\ no neck (capacity differs),18,-0.0086,6/18
+MatchedNeck vs.\ no neck (capacity alone),18,-0.0068,9/18

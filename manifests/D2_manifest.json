@@ -1,0 +1,1706 @@
+[
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_000.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "10e06c252e79d1e740ad69f76ee5348c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_001.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "ee1dbebe4c01dbd56794b20fcc423f98",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_002.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "954c8f496fde1e4aa1789f439e3b9502",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_003.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "cff6960fc8fce5fc1b4d2248bf965bdc",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_004.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "6dd180a047ed2fc61673bef79384c272",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_005.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "885e02bde34b3798107150611aec8287",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_006.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "196677ca75dfe18034fb4e38f18ccec4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_007.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "6278e47b3520776504846fb3ab2c03fc",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_008.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "68d45d02dfc14f2b5ef61b61de91bef8",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_009.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "f4c21899fd2fd9e7dc8be28e7480a637",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_010.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "477843cbaba3805b0cbac45be9f0efd1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_011.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "f129556c36d8fb3ca1e88b644980e125",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_012.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "ca43448dabb539c2107bcb5e64e516e1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_013.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "e04498622fe2a8210a96a4bcfd0c75d6",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_014.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "58f429e1305585bd837fb1a527a2b69f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_015.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "ce6a870f2ef5413ecbb993257b71da48",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_016.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "14dda6ad1410d4912b820273fc413d45",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_017.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "09c6a8c335a3f28e6cd19eace01452e0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_018.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "4bc09cadcfc8f4233259aa664753bfa2",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_019.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "6779cdc91de949016aa5571284c7b783",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_020.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "c2631f561f769680f04b499dd5795699",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_021.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "c91869cf599cbb0e22584ccbf9f91780",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_022.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "0fe91be650e28752279972dba64b1665",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_023.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "ce894431fefc816d1d7064bcfe058e1a",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_024.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "295dd4f73f962b0d5c7e775226a41e83",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_025.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "3e99a82a07c281ee553da2b4601dbd22",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_026.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "4067ae7012b7c0cddc2dae0e431ff534",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_027.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "0168c9ec3074cd5ad900087ab91b726c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_028.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "92059a2f8c4fcf2e2163dec26c023ba4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_029.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "fed497691c3b7c50a1371e9a2a9dee3f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_030.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "fd1c58125272834c9f9faa52cfe2c5a6",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_031.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "7bd9eb6b2dfe4d744a6bb7a187d9c61a",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_032.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "5f245063cbbf4bd448248f55f2417f0c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_033.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "0337ae4030cf079978b02d170e70a0ad",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_034.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "1d88a94da2022e7dfc83b6fe9314c66e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_035.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "37d9e1ad953ff08ae72ab4baeed46e9b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/clean/scraped_ft_clean_036.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "996769eee6dde9e9100a2fa148d0c757",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_000.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "a717ec4918198a66dc09bda7f23323df",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_001.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "8ec8ad2eed42c05d81954d72730c7f49",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_002.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "cddbc87df900654afa09c658fdffb61e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_003.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "edbf1142ea9d86fcf176a82b03318f2b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_004.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "3e6ddd2d2f4c41b07463d63d0febbec5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_005.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "4e5586737aacf69413dfa198cb097990",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_006.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "cead7ff15601920037d359a4b51d9425",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_007.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "5807af9d858183ab9f2ce9c1758db1a9",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_008.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "3376155e5e172854e7965ebb8105cebc",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_009.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "35f74632566ffd267b56acf80e0d0109",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_010.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "b673c96dc96007705a5333caee500750",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_011.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "0651a94a2b3a3a613c85259f4240ab1b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_012.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "b805c030fef4ab2e63f85c0b38d1a69c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_013.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "ace5cefb19f3d118bc0227825b5f95ab",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_014.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "d672a0751d3e3c21d80ffdde00710618",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_015.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "ac6745e33fe0b8f7bd59fbfbc472538f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_016.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "449ccf1c877c5edcd6bfe6f5d9c487cb",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_017.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "6457d29cc3ca8297a125cb1a087b0561",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_018.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "1046d93615cb48e8fe2a2cfeca6abad5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_019.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "c120cdf984cf4ae28d8db018306de9b2",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_020.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "1c9326c5b515dd9586ca7df59f259015",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_021.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "52b9cada94d17daaea1c2af25e6cc232",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_022.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "c95b70499ebe1d3bbb90f06d9eeb0613",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_023.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "5157825a65653f33d9e4048332d5b363",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_024.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "5b1dafd387e68264cb241e18a6fb7e4b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_025.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "812aeef5fb87c8b6726f9c4d6822ff8c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_026.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "e92385930846750ba3ce7c63a736ed83",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_027.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "cfff78783e93e7ac87cd962394a34900",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_028.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "bcebed5b5640ee8d459799a8b9aa6a08",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/algae/scraped_ft_algae_029.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "7558fd513c0444f1beb3822fab4efbd1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_000.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "abf2c85e9b3887d064b4c7426eb6baf3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_001.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "05ea602767f0ab63bc260cf5bc8abb3f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_002.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "9234c488a806f0e01fcfa704c435c641",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_003.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "8939d4e8e6187cde15617f46ee99f251",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_004.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "f5bf4c53722e52ad86189e7e7ae81046",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_005.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "49b20c6bb786b264deab4ed332732673",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_006.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "b0c274207cb6606588c084325091d939",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_007.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "8411f7501b01d4b78ce4c952cda9dc2f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_008.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "7b4c83ee1c323cb10ba9e6f6fd207672",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_009.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "5b240d4e498488747c6d0a2a9db53a6a",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_010.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "26d5cc8bc69e8adad1a89931879229d2",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_011.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "07df3fe25e55f840855e4046a789b968",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_012.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "cb7fa97895c51541f506815e8427ac1b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_013.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "eb65d741e0ece44a1f5e5c9615a0e03e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_014.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "44da5cea6a2a3d06d51794e101a8cdd7",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_015.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "693ceaef4a0573f70c9fa17e90e07105",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_016.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "e5178f03ac5d0c83c6809db86e0ea110",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_017.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "96bec17246e6c58295b7b01bfc3c2bdc",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_018.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "0f1f4fd70633c4f506e8ebaee55d8d41",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_019.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "fea43e8adfaad14b0d79131f203a50e7",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_020.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "744a92e8afefcd6e7ee3f764bbe4422d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_021.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "87790b56aaf4ef57e9697f6c6873895f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_022.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "14f149d4a65db80912802a73d7b3488c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/debris/scraped_ft_debris_023.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "0591e59df3fa353ece0ce20915a6e9ea",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_000.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "545792ba9a7ab9292dd95b2c419b9cb0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_001.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "d4b6cb3eb2a51d88e681828373c15be5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_002.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "7ade8a50075cba2d788ebae679c9f233",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_003.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "cd7ad5643b6d9941c5133e37b2dbfacc",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_004.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "8070958a28e29e61c2dad978639d766d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_005.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "fed406e4799c9f948a63baaa2e89f20b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_006.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "c2eb9cce6f319d589dd078b7a7ad77d1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_007.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "b7ca892b26b6a86c1182ef0bb5afae4f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_008.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "9b470825fea74dfba74135600b4178d8",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_009.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "168efaafa4309f7cd67d28632f4afa16",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_010.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "88f8d811ce12bcdba3581024759bb66c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_011.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "d69289750e15e6fe30f37a70d4593cf1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_012.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "96838657cf1273e8f4af58af4c677bc1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_013.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "b757383832ad5d8f811c54a550c935bd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_014.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "e4000f182be2a72a0fdeebfb1b0a448f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_015.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "edbbafc50e127ae4dbe7e5490af1abf6",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_016.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "cfeb2010177068fbf1a05b1d72491cb8",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_017.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "d97816dbdbf2412e9aa1bd760c589b36",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_018.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "1f1aa2ac7dc3d1217090aeb93b0af239",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_019.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "01820832ba345457b87d61eca8f46f4c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_020.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "a226de6f60e4b39b080c0704e97a9e89",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_021.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "de722cf67cf0ae0750df64d05aeb4614",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_022.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "5112ff57290e7eac98ff47547da588cf",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_023.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "39e65b2476c7d98763b549b58b1c55f6",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_024.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "0518a942e538cfe742e42b8fd7928693",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_025.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "dc870466dc798f8979a81bb9774d156b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_026.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "f8bf2f64941ed05feb6c83a711891d40",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_027.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "e762a13f3e0f052f5809f54e7596a854",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_028.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "7e71251ada38cc2adaa06c0992beea22",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_029.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "8e412e4bd1f78eb9c1b2d8dba89b53a4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_030.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "98a0c4cd8dd9d14efaf5dbd31fb81796",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_031.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "413d28577f8657c8f6cd09c2da3227f0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_032.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "9a9fd0833da70f348fee2d0ada297cb0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_033.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "5a791316d304bbbab334f5f8109d0372",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_034.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "0d336374b4b874d00859ec8a748c5f62",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_035.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "30fd3100ac259d541dd0a0ce41e34996",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_036.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "bd025c216f0ccbf72beb38084715922f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_037.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "8d6a2d93ba24059f0eaa5c4c9df6caa3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_038.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "efd1c62235365ee8b696f570a29da5cd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_039.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "c9d9bdbd18bee4e85c158122d213a157",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_040.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "fc4a8673f76202d1024d596e609a6ec5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_041.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "50a383535f2c47f008f78bee81fee975",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_042.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "c2221f9ea84042a75b04d0e9711bedca",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_043.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "73d8a86c95b35326c691f43ef33c70cb",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_044.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "caff693a635424d2d003ac09159a4193",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_045.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "d47da176a1ff32b37a07ac563b876094",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_046.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "51031dee966c2a6afefb42d652df6335",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_047.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "2c18587d317a5aa661678489f19548ae",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_048.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "c5668a2c9e0cfd8415f062a15d5057dd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_049.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "9abf3d7df5eb75c48620b640e5e8f18c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_050.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "5f4e3436f4cc507efc7c86d4a42d9e06",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/foam/scraped_ft_foam_051.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "9e5b901facf08ceffb75353c8a3df150",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_000.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "1a2a2b7347a2ec5783d992a1b1e197cb",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_001.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "070e7f01f5ac1cc185fc59b5b4cdcf77",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_002.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "c50700f31200522313db25815ce8e9ca",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_003.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "1dabd9faaba734e22881626d426684a7",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_004.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "e44b777b937a7048daf3c4b817af3c1f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_005.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "1036995e8010f04defdb64ba4aacb8a2",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_006.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "ec7597a13baf65b765b5218316edb462",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_007.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "7f237252a5771e7cf37234e6aed962aa",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_008.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "75f184d1032580b1020f378e0aa1820e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_009.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "892577f700d442d8d7327b3b888c8c09",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_010.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "716b7a3d5bec354b9a75a1a92c1ab01b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_011.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "b2a6b0bff6fc55409fd6f2766a7aaa26",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_012.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "58802898b01ed591e854f65dae78e23e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_013.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "6b2ef74af60f41ad086b6dbe4c3194eb",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_014.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "e1e72382f4210d07c0e56693dca7f413",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_015.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "18128d2da784042981a1b1850a218ff9",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_016.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "3cd720ccec80c02ed42acba72a310dd2",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_017.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "a441fe6dbd00712689b1f5601d28eb23",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_018.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "13dcfd77070547e1a27804bdc0b1eccb",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/oil/scraped_ft_oil_019.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "67c2b172916da44e2129dd48e5c83428",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_000.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "2f1de85be2cea269a1a3f7a8d0c2c19f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_001.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "3770209dd31c69ab0b0af04d939fa7ff",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_002.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "fc80445df1af821cbcc21d627b78701e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_003.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "d1161a27c591692a870b4dc82124c22e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_004.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "a39665424d1624a3bd83758982e275fb",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_005.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "400039897f1a83f1665eb776312fa77c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_006.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "92857ebdfa8c7c0b5aa18a18b4603aa6",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_007.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "df1d6040e380c9e6225a469b61873662",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_008.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "8b283c1103e6aed066fd8be0a48df1a9",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_009.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "445508cfcb89df859420282001ca07fa",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_010.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "089b4c5a41bc0d70a3cc21bb917b1aba",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_011.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "7ecd0afc33142fac28d6235bcc4b268a",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_012.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "28c860a0de1c9c9b897b630e856c7869",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_013.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "bde100f9aa8504e0b66dff29dc944d7e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_014.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "36465b63035c38d5497e76c7c7a5f11b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_015.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "46d6d26d69e42e8f916d262746f4f276",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_016.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "67571e7513ab538816cbf8de9b2ba158",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_017.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "fcdc22f8a34e7266b6b29e41cd2e1c15",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_018.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "908540e9ea60bd0fee82d0f85d6c4e56",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_019.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "4dcaf19b4b0b70e293f76acdddbf6440",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_020.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "6becc5b8d2d450d87141fd2a94cb7e2b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_021.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "0691af44cc131c4a2b0b38a437c74608",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_022.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "a8e5ab287f151eb310e1d721ca3f098d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_023.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "5203dc8e15f82ef7dcfc84cf9d9582dd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_024.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "254302f8dbf55e74bb49a45a4d29f9ff",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_025.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "cd34b007cc4d42aa50c7c10f05b93ba3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_026.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "af0d5279a7d871d687805d162ef8cefd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_027.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "316ce7aabc64a51452cbd064ac3bb478",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/turbid/scraped_ft_turbid_028.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "611ebf1cc9c3f9c0f3a6abbf6fe58e60",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_000.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "d6255055a60632fa299605be324c1de1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_001.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "ba5e43a822df11eeba0f39b1a49efe3b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_002.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "97144ae94dc914acc503b257fcf43617",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_003.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "682e6b56be4c9ebf31f0e3220cb78922",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_004.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "6b10a10a0cba7dba4bacf5cd17112fff",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_005.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "14a7012ec1cc050dabcd2e2243722bf0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_006.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "4c6b74a0bc0df14f777d185362c05be5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_007.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "6ba0d311c428ea24ed6717b79a181fc3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_008.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "1bb9e847ecdeae3b45e950ee922b62f5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_009.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "49ada7f4988cd6d71dbab85cdeb53753",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_010.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "e4e4b7cbacd178c85380e32524c27d81",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_011.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "96726288d326fa3f1b89f43309d70126",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_012.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "e9efbbea3b1b6bd5ac8aa65756a0d4dd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_013.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "6264bcaa8d19430db12c9525b0390572",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_014.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "c0d4769d6a01353868be05c8cd2957f9",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_015.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "ba0cf43f2256bbef03769efea2181975",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_016.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "8fd2dc6c6465e1d4181e73c9d1d6e22b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_017.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "fdd7f5f916ba200c1cd7476680d4d859",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_018.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "774411fc3cdd363a43441614944d8d0d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_019.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "8a9f6a32f9d0bae92f038e98a3aadbbb",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_finetune/contaminated/uncertain/scraped_ft_uncertain_020.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "ced996b7d2c46f79b1dd14976332a034",
+  "w": 450,
+  "h": 450
+ }
+]

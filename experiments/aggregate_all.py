@@ -123,6 +123,13 @@ def table(summ, title, sort_by='test_macro_f1_mean'):
 
 # ------------------------------------------------------------------ statistics
 
+# Metrics where a SMALLER value is the better result. `mean_diff` is always
+# chosen-minus-other, so for these a POSITIVE mean_diff means the *other* model won.
+# Getting this backwards inverts the paper's calibration claim, so every record carries an
+# explicit `favours` field rather than leaving the reader to infer the direction.
+LOWER_IS_BETTER = {'ece_15bin', 'nll'}
+
+
 def paired_seed_test(a_runs, b_runs, metric='accuracy'):
     """Paired seed-level test with Cohen's dz. Requires matched seeds."""
     a = {r['seed']: r[metric] for r in a_runs}
@@ -132,8 +139,11 @@ def paired_seed_test(a_runs, b_runs, metric='accuracy'):
         return None
     x = np.array([a[s] for s in seeds]); y = np.array([b[s] for s in seeds])
     d = x - y
+    lower_better = metric in LOWER_IS_BETTER
     res = {'n_seeds': len(seeds), 'seeds': seeds, 'mean_diff': float(d.mean()),
-           'wins': int((d > 0).sum()),
+           'wins': int((d < 0).sum() if lower_better else (d > 0).sum()),
+           'lower_is_better': lower_better,
+           'favours': ('selected' if (d.mean() < 0) == lower_better else 'other'),
            'cohens_dz': float(d.mean() / d.std(ddof=1)) if d.std(ddof=1) > 0 else float('inf')}
     res['paired_t_p'] = float(ttest_rel(x, y).pvalue)
     if len(seeds) >= 6:
@@ -282,22 +292,33 @@ def final_report(outdir, stage=None):
     for s in summ:
         if s['config'] == chosen['config']:
             continue
-        for metric in ('accuracy', 'macro_f1'):
+        for metric in ('accuracy', 'macro_f1', 'ece_15bin'):
             t = paired_seed_test(chosen['runs'], s['runs'], metric)
             if t:
                 comparisons.append({'vs': s['config'], 'metric': metric, **t})
                 pvals.append(t['paired_t_p'])
-    if pvals:
-        for c, a in zip(comparisons, holm(pvals)):
-            c['paired_t_p_holm'] = float(a)
+    # Holm is applied within a metric family, not across all three. Pooling accuracy,
+    # macro-F1 and ECE into one family of 27 would correct for comparisons that answer
+    # different questions and are near-perfectly correlated within each metric.
+    for metric in ('accuracy', 'macro_f1', 'ece_15bin'):
+        fam = [c for c in comparisons if c['metric'] == metric]
+        if fam:
+            for c, a in zip(fam, holm([c['paired_t_p'] for c in fam])):
+                c['paired_t_p_holm'] = float(a)
+                c['holm_family'] = f'{metric} ({len(fam)} comparisons)'
 
-    print('\nPaired seed-level comparisons vs the selected model (Holm-corrected):')
-    print(f"{'vs':40} {'metric':>9} {'n':>2} {'delta':>9} {'wins':>6} {'dz':>7} {'p':>8} {'p_holm':>8}")
-    print('-' * 96)
-    for c in sorted(comparisons, key=lambda z: z['paired_t_p']):
-        print(f"{c['vs']:40} {c['metric']:>9} {c['n_seeds']:>2} {c['mean_diff']:>+9.4f} "
+    print('\nPaired seed-level comparisons vs the selected model '
+          '(Holm-corrected within each metric):')
+    print(f"{'vs':40} {'metric':>10} {'n':>2} {'delta':>9} {'wins':>6} {'dz':>7} "
+          f"{'p':>8} {'p_holm':>8}  favours")
+    print('-' * 108)
+    for c in sorted(comparisons, key=lambda z: (z['metric'], z['paired_t_p'])):
+        print(f"{c['vs']:40} {c['metric']:>10} {c['n_seeds']:>2} {c['mean_diff']:>+9.4f} "
               f"{c['wins']}/{c['n_seeds']:<4} {c['cohens_dz']:>7.2f} {c['paired_t_p']:>8.4f} "
-              f"{c.get('paired_t_p_holm', float('nan')):>8.4f}")
+              f"{c.get('paired_t_p_holm', float('nan')):>8.4f}  {c['favours']}")
+    print(f"\n  ece_15bin is a LOSS: mean_diff is {chosen['config']} minus the other model, "
+          f"so a POSITIVE\n  delta means the other model is better calibrated. "
+          f"The `favours` column states this directly.")
 
     # Prediction-level: McNemar + bootstrap on the best seed of each config.
     print('\nPrediction-level tests (seed-matched, best available seed):')

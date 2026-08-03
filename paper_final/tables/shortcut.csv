@@ -1,0 +1,5 @@
+Probe,Features,Test acc. pm sd,Test mf{} pm sd
+Majority class,--,.3513,.0743
+File metadata only (no pixels),8,.6918 $\pm$ .0013,.5822 $\pm$ .0022
+Mean and sd of RGB channels,6,.7190 $\pm$ .0033,.6099 $\pm$ .0064
+\emph{Best deep model},--,.9283,.9053

@@ -1,0 +1,9 @@
+Factor,Level,Marginal test mf{}
+Head,flat,\textbf{.8585}
+Head,hier-naive,.8540
+Head,hier-tf,.8534
+MSRB,off,\textbf{.8604}
+MSRB,matched,.8537
+MSRB,on,.8518
+CSAB,off,\textbf{.8586}
+CSAB,on,.8520

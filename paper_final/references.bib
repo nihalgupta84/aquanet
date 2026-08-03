@@ -1,16 +1,123 @@
-@inproceedings{he2016resnet,title={Deep Residual Learning for Image Recognition},author={He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},booktitle={CVPR},year={2016}}
-@inproceedings{huang2017densenet,title={Densely Connected Convolutional Networks},author={Huang, Gao and Liu, Zhuang and van der Maaten, Laurens and Weinberger, Kilian},booktitle={CVPR},year={2017}}
-@inproceedings{sandler2018mobilenet,title={MobileNetV2: Inverted Residuals and Linear Bottlenecks},author={Sandler, Mark and Howard, Andrew and Zhu, Menglong and Zhmoginov, Andrey and Chen, Liang-Chieh},booktitle={CVPR},year={2018}}
-@inproceedings{tan2019efficientnet,title={EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks},author={Tan, Mingxing and Le, Quoc V.},booktitle={ICML},year={2019}}
-@inproceedings{liu2022convnext,title={A ConvNet for the 2020s},author={Liu, Zhuang and Mao, Hanzi and Wu, Chao-Yuan and Feichtenhofer, Christoph and Darrell, Trevor and Xie, Saining},booktitle={CVPR},year={2022}}
-@inproceedings{dosovitskiy2021vit,title={An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},author={Dosovitskiy, Alexey and others},booktitle={ICLR},year={2021}}
-@inproceedings{touvron2021deit,title={Training Data-Efficient Image Transformers and Distillation through Attention},author={Touvron, Hugo and others},booktitle={ICML},year={2021}}
-@inproceedings{liu2021swin,title={Swin Transformer: Hierarchical Vision Transformer Using Shifted Windows},author={Liu, Ze and others},booktitle={ICCV},year={2021}}
-@inproceedings{woo2018cbam,title={CBAM: Convolutional Block Attention Module},author={Woo, Sanghyun and Park, Jongchan and Lee, Joon-Young and Kweon, In So},booktitle={ECCV},year={2018}}
-@inproceedings{lin2017focal,title={Focal Loss for Dense Object Detection},author={Lin, Tsung-Yi and others},booktitle={ICCV},year={2017}}
-@inproceedings{guo2017calibration,title={On Calibration of Modern Neural Networks},author={Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian},booktitle={ICML},year={2017}}
-@inproceedings{selvaraju2017gradcam,title={Grad-CAM: Visual Explanations from Deep Networks via Gradient-Based Localization},author={Selvaraju, Ramprasaath R. and others},booktitle={ICCV},year={2017}}
-@inproceedings{bouthillier2021variance,title={Accounting for Variance in Machine Learning Benchmarks},author={Bouthillier, Xavier and others},booktitle={MLSys},year={2021}}
-@inproceedings{lucic2018gans,title={Are GANs Created Equal? A Large-Scale Study},author={Lucic, Mario and others},booktitle={NeurIPS},year={2018}}
-@article{al2024drone,title={Designing and Developing an Advanced Drone-Based Pollution Surveillance System for River Waterways, Streams, and Canals Using Machine Learning Algorithms},author={Al-Battbootti, Khalid and others},journal={Applied Sciences},volume={14},number={6},pages={2382},year={2024},doi={10.3390/app14062382}}
-@article{kim2023cctv,title={Application of Closed-Circuit Television Image Segmentation for Irrigation Channel Water Level Measurement},author={Kim, Young-Jin and Choi, Min-Ha},journal={Water},volume={15},number={18},pages={3308},year={2023},doi={10.3390/w15183308}}
+% Every entry below was verified against Crossref (by DOI) or the arXiv API on 2026-08-03.
+% Author lists, titles, venues and years are as returned by those services, not from memory.
+% RESEARCH_PLAN.md section 18 forbids invented citations; nothing here may be imported from
+% paper_v1/references.bib, whose entries were fabricated.
+
+% ---------------------------------------------------------------- architectures
+@inproceedings{he2016resnet,
+  title = {Deep Residual Learning for Image Recognition},
+  author = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {770--778}, year = {2016}, doi = {10.1109/CVPR.2016.90}}
+
+@inproceedings{huang2017densenet,
+  title = {Densely Connected Convolutional Networks},
+  author = {Huang, Gao and Liu, Zhuang and Van Der Maaten, Laurens and Weinberger, Kilian Q.},
+  booktitle = {IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {2261--2269}, year = {2017}, doi = {10.1109/CVPR.2017.243}}
+
+@inproceedings{sandler2018mobilenet,
+  title = {{MobileNetV2}: Inverted Residuals and Linear Bottlenecks},
+  author = {Sandler, Mark and Howard, Andrew and Zhu, Menglong and Zhmoginov, Andrey
+            and Chen, Liang-Chieh},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {4510--4520}, year = {2018}, doi = {10.1109/CVPR.2018.00474}}
+
+@inproceedings{tan2019efficientnet,
+  title = {{EfficientNet}: Rethinking Model Scaling for Convolutional Neural Networks},
+  author = {Tan, Mingxing and Le, Quoc V.},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  series = {PMLR}, volume = {97}, pages = {6105--6114}, year = {2019}}
+
+@inproceedings{liu2022convnext,
+  title = {A {ConvNet} for the 2020s},
+  author = {Liu, Zhuang and Mao, Hanzi and Wu, Chao-Yuan and Feichtenhofer, Christoph
+            and Darrell, Trevor and Xie, Saining},
+  booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages = {11976--11986}, year = {2022}, doi = {10.1109/CVPR52688.2022.01167}}
+
+@inproceedings{dosovitskiy2021vit,
+  title = {An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale},
+  author = {Dosovitskiy, Alexey and Beyer, Lucas and Kolesnikov, Alexander and
+            Weissenborn, Dirk and Zhai, Xiaohua and Unterthiner, Thomas and
+            Dehghani, Mostafa and Minderer, Matthias and Heigold, Georg and
+            Gelly, Sylvain and Uszkoreit, Jakob and Houlsby, Neil},
+  booktitle = {International Conference on Learning Representations (ICLR)}, year = {2021}}
+
+@inproceedings{touvron2021deit,
+  title = {Training Data-Efficient Image Transformers and Distillation through Attention},
+  author = {Touvron, Hugo and Cord, Matthieu and Douze, Matthijs and Massa, Francisco and
+            Sablayrolles, Alexandre and J{\'e}gou, Herv{\'e}},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  series = {PMLR}, volume = {139}, pages = {10347--10357}, year = {2021}}
+
+@inproceedings{liu2021swin,
+  title = {{Swin} Transformer: Hierarchical Vision Transformer Using Shifted Windows},
+  author = {Liu, Ze and Lin, Yutong and Cao, Yue and Hu, Han and Wei, Yixuan and
+            Zhang, Zheng and Lin, Stephen and Guo, Baining},
+  booktitle = {IEEE/CVF International Conference on Computer Vision (ICCV)},
+  pages = {10012--10022}, year = {2021}, doi = {10.1109/ICCV48922.2021.00986}}
+
+@inproceedings{woo2018cbam,
+  title = {{CBAM}: Convolutional Block Attention Module},
+  author = {Woo, Sanghyun and Park, Jongchan and Lee, Joon-Young and Kweon, In So},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  series = {Lecture Notes in Computer Science}, volume = {11211}, pages = {3--19},
+  year = {2018}, doi = {10.1007/978-3-030-01234-2\_1}}
+
+% ---------------------------------------------------------------- objectives and analysis
+@inproceedings{lin2017focal,
+  title = {Focal Loss for Dense Object Detection},
+  author = {Lin, Tsung-Yi and Goyal, Priya and Girshick, Ross and He, Kaiming and
+            Doll{\'a}r, Piotr},
+  booktitle = {IEEE International Conference on Computer Vision (ICCV)},
+  pages = {2980--2988}, year = {2017}, doi = {10.1109/ICCV.2017.324}}
+
+@inproceedings{guo2017calibration,
+  title = {On Calibration of Modern Neural Networks},
+  author = {Guo, Chuan and Pleiss, Geoff and Sun, Yu and Weinberger, Kilian Q.},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  series = {PMLR}, volume = {70}, pages = {1321--1330}, year = {2017}}
+
+@inproceedings{selvaraju2017gradcam,
+  title = {{Grad-CAM}: Visual Explanations from Deep Networks via Gradient-Based Localization},
+  author = {Selvaraju, Ramprasaath R. and Cogswell, Michael and Das, Abhishek and
+            Vedantam, Ramakrishna and Parikh, Devi and Batra, Dhruv},
+  booktitle = {IEEE International Conference on Computer Vision (ICCV)},
+  pages = {618--626}, year = {2017}, doi = {10.1109/ICCV.2017.74}}
+
+@inproceedings{bouthillier2021variance,
+  title = {Accounting for Variance in Machine Learning Benchmarks},
+  author = {Bouthillier, Xavier and Delaunay, Pierre and Bronzi, Mirko and
+            Trofimov, Assya and Nichyporuk, Brennan and Szeto, Justin and
+            Sepah, Naz and Raff, Edward and Madan, Kanika and Voleti, Vikram and
+            Kahou, Samira Ebrahimi and Michalski, Vincent and Serdyuk, Dmitriy and
+            Arbel, Tal and Pal, Chris and Varoquaux, Ga{\"e}l and Vincent, Pascal},
+  booktitle = {Proceedings of Machine Learning and Systems (MLSys)}, year = {2021}}
+
+@inproceedings{lucic2018gans,
+  title = {Are {GAN}s Created Equal? A Large-Scale Study},
+  author = {Lucic, Mario and Kurach, Karol and Michalski, Marcin and Gelly, Sylvain and
+            Bousquet, Olivier},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  volume = {31}, pages = {700--709}, year = {2018}}
+
+% ---------------------------------------------------------------- application domain
+% Author lists corrected 2026-08-03: the previous entries carried invented given names
+% ("Khalid" Al-Battbootti; "Young-Jin" Kim and "Min-Ha" Choi). Both are as Crossref returns.
+@article{al2024drone,
+  title = {Designing and Developing an Advanced Drone-Based Pollution Surveillance System
+           for River Waterways, Streams, and Canals Using Machine Learning Algorithms:
+           Case Study in {Shatt al-Arab}, South East {Iraq}},
+  author = {Al-Battbootti, Myssar Jabbar Hammood and Marin, Iuliana and Al-Hameed, Sabah
+            and Popa, Ramona-Cristina and Petrescu, Ionel and Boiangiu, Costin-Anton
+            and Goga, Nicolae},
+  journal = {Applied Sciences}, volume = {14}, number = {6}, pages = {2382},
+  year = {2024}, doi = {10.3390/app14062382}}
+
+@article{kim2023cctv,
+  title = {Application of Closed-Circuit Television Image Segmentation for Irrigation
+           Channel Water Level Measurement},
+  author = {Kim, Kwihoon and Choi, Jin-Yong},
+  journal = {Water}, volume = {15}, number = {18}, pages = {3308},
+  year = {2023}, doi = {10.3390/w15183308}}

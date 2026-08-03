@@ -1,0 +1,9 @@
+Model,Val mf{},Test acc. pm sd,Test mf{} pm sd
+random forest,.7745,.8389 $\pm$ .0053,.7852 $\pm$ .0075
+xgboost,.8006,.8272 $\pm$ .0045,.7725 $\pm$ .0074
+svm rbf,.7897,.8080 $\pm$ 0.0000,.7418 $\pm$ 0.0000
+logreg,.7444,.7892 $\pm$ 0.0000,.7153 $\pm$ 0.0000
+\emph{MobileNetV2} (deep),.8849,.8815 $\pm$ .0159,.8425 $\pm$ .0205
+\emph{DenseNet-121} (deep),.9009,.9063 $\pm$ .0116,.8751 $\pm$ .0140
+\emph{AquaNet-full} (deep),.8998,.8979 $\pm$ .0129,.8661 $\pm$ .0165
+\emph{Swin-T} (deep),.9164,.9283 $\pm$ .0082,.9053 $\pm$ .0094

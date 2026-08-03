@@ -1,0 +1,10 @@
+Compared with AquaNet-no-neck,Delta|T-1|,Wins,p,p_{mathrm{Holm}}
+EfficientNet-B0,+1.6098,5/5,0.00000,\textbf{0.00004}
+AquaNet-hier,+0.4754,5/5,0.00009,\textbf{0.00069}
+AquaNet-full,+0.4965,5/5,0.00017,\textbf{0.00121}
+ResNet-50,+0.6929,5/5,0.00023,\textbf{0.00139}
+MobileNetV2,+1.2463,5/5,0.00023,\textbf{0.00139}
+DeiT-S,+0.7198,5/5,0.00034,\textbf{0.00139}
+Swin-T,+1.1565,5/5,0.00565,\textbf{0.01695}
+ConvNeXt-T,+0.8434,5/5,0.00959,\textbf{0.01918}
+DenseNet-121,+0.4474,4/5,0.02760,\textbf{0.02760}

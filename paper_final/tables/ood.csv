@@ -1,0 +1,11 @@
+Model,D3 acc.,D3 mf{} pm sd,False-clean rate
+Swin-T,.4890,.5035 $\pm$ .0583,.0967
+DeiT-S,.4699,.4980 $\pm$ .0339,.0967
+ConvNeXt-T,.4740,.4955 $\pm$ .0267,.0883
+AquaNet-no-neck,.4712,.4787 $\pm$ .0228,.1250
+ResNet-50,.4288,.4484 $\pm$ .0184,.1133
+DenseNet-121,.4288,.4399 $\pm$ .0280,.1300
+EfficientNet-B0,.4233,.4349 $\pm$ .0331,.1117
+AquaNet-hier,.3877,.4094 $\pm$ .0381,.0950
+AquaNet-full,.3836,.3957 $\pm$ .0107,.1483
+MobileNetV2,.3603,.3726 $\pm$ .0230,.0933

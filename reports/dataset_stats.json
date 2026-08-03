@@ -1,0 +1,396 @@
+{
+  "_meta": {
+    "classes": [
+      "clean",
+      "algae",
+      "debris",
+      "foam",
+      "oil",
+      "turbid",
+      "uncertain"
+    ],
+    "note": "Resolutions are the on-disk sizes before the 224x224 resize. The resize does not preserve aspect ratio, so the spread of aspect ratios below is a measure of how much geometric distortion the models were trained on."
+  },
+  "sets": {
+    "D1": {
+      "n": 2799,
+      "counts_by_split_label": {
+        "test": {
+          "clean": 41,
+          "algae": 150,
+          "debris": 48,
+          "foam": 40,
+          "oil": 24,
+          "turbid": 54,
+          "uncertain": 70
+        },
+        "train": {
+          "clean": 185,
+          "algae": 695,
+          "debris": 221,
+          "foam": 180,
+          "oil": 107,
+          "turbid": 247,
+          "uncertain": 321
+        },
+        "val": {
+          "clean": 39,
+          "algae": 148,
+          "debris": 47,
+          "foam": 38,
+          "oil": 23,
+          "turbid": 53,
+          "uncertain": 68
+        }
+      },
+      "counts_by_label": {
+        "clean": 265,
+        "algae": 993,
+        "debris": 316,
+        "foam": 258,
+        "oil": 154,
+        "turbid": 354,
+        "uncertain": 459
+      },
+      "formats": {
+        "JPEG": 2320,
+        "PNG": 479
+      },
+      "top_resolutions": [
+        [
+          "1280x960",
+          936
+        ],
+        [
+          "512x512",
+          474
+        ],
+        [
+          "1024x559",
+          452
+        ],
+        [
+          "224x224",
+          116
+        ],
+        [
+          "1000x1000",
+          73
+        ],
+        [
+          "640x640",
+          52
+        ],
+        [
+          "1920x1080",
+          42
+        ],
+        [
+          "1000x666",
+          36
+        ],
+        [
+          "1000x562",
+          32
+        ],
+        [
+          "1000x667",
+          31
+        ],
+        [
+          "1080x1920",
+          26
+        ],
+        [
+          "3565x2674",
+          22
+        ],
+        [
+          "3614x2711",
+          22
+        ],
+        [
+          "3676x2496",
+          19
+        ],
+        [
+          "1920x1012",
+          16
+        ]
+      ],
+      "n_distinct_resolutions": 181,
+      "aspect_ratio": {
+        "min": 0.4178272980501393,
+        "max": 3.690036900369004,
+        "mean": 1.344719209552322,
+        "hist_bins": [
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          1.75,
+          2.0,
+          3.0
+        ],
+        "hist_counts": [
+          1,
+          98,
+          23,
+          740,
+          1165,
+          142,
+          613,
+          17
+        ]
+      },
+      "n_distinct_source_prefixes": 21,
+      "top_source_prefixes": [
+        [
+          "algae_train",
+          695
+        ],
+        [
+          "uncertain_train",
+          321
+        ],
+        [
+          "turbid_train",
+          247
+        ],
+        [
+          "debris_train",
+          221
+        ],
+        [
+          "clean_train",
+          185
+        ],
+        [
+          "foam_train",
+          180
+        ],
+        [
+          "algae_test",
+          150
+        ],
+        [
+          "algae_val",
+          148
+        ],
+        [
+          "oil_train",
+          107
+        ],
+        [
+          "uncertain_test",
+          70
+        ],
+        [
+          "uncertain_val",
+          68
+        ],
+        [
+          "turbid_test",
+          54
+        ],
+        [
+          "turbid_val",
+          53
+        ],
+        [
+          "debris_test",
+          48
+        ],
+        [
+          "debris_val",
+          47
+        ]
+      ],
+      "images_in_multi_split_resolution_group": 2645,
+      "megapixels_mean": 1.0608003608431584
+    },
+    "D2": {
+      "n": 213,
+      "counts_by_split_label": {
+        "-": {
+          "clean": 37,
+          "algae": 30,
+          "debris": 24,
+          "foam": 52,
+          "oil": 20,
+          "turbid": 29,
+          "uncertain": 21
+        }
+      },
+      "counts_by_label": {
+        "clean": 37,
+        "algae": 30,
+        "debris": 24,
+        "foam": 52,
+        "oil": 20,
+        "turbid": 29,
+        "uncertain": 21
+      },
+      "formats": {
+        "JPEG": 213
+      },
+      "top_resolutions": [
+        [
+          "450x450",
+          213
+        ]
+      ],
+      "n_distinct_resolutions": 1,
+      "aspect_ratio": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "hist_bins": [
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          1.75,
+          2.0,
+          3.0
+        ],
+        "hist_counts": [
+          0,
+          0,
+          0,
+          213,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "n_distinct_source_prefixes": 7,
+      "top_source_prefixes": [
+        [
+          "scraped_ft_foam",
+          52
+        ],
+        [
+          "scraped_ft_clean",
+          37
+        ],
+        [
+          "scraped_ft_algae",
+          30
+        ],
+        [
+          "scraped_ft_turbid",
+          29
+        ],
+        [
+          "scraped_ft_debris",
+          24
+        ],
+        [
+          "scraped_ft_uncertain",
+          21
+        ],
+        [
+          "scraped_ft_oil",
+          20
+        ]
+      ],
+      "images_in_multi_split_resolution_group": 0,
+      "megapixels_mean": 0.2025
+    },
+    "D3": {
+      "n": 146,
+      "counts_by_split_label": {
+        "-": {
+          "clean": 26,
+          "algae": 20,
+          "debris": 16,
+          "foam": 35,
+          "oil": 14,
+          "turbid": 20,
+          "uncertain": 15
+        }
+      },
+      "counts_by_label": {
+        "clean": 26,
+        "algae": 20,
+        "debris": 16,
+        "foam": 35,
+        "oil": 14,
+        "turbid": 20,
+        "uncertain": 15
+      },
+      "formats": {
+        "JPEG": 146
+      },
+      "top_resolutions": [
+        [
+          "450x450",
+          146
+        ]
+      ],
+      "n_distinct_resolutions": 1,
+      "aspect_ratio": {
+        "min": 1.0,
+        "max": 1.0,
+        "mean": 1.0,
+        "hist_bins": [
+          0.5,
+          0.75,
+          1.0,
+          1.25,
+          1.5,
+          1.75,
+          2.0,
+          3.0
+        ],
+        "hist_counts": [
+          0,
+          0,
+          0,
+          146,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "n_distinct_source_prefixes": 7,
+      "top_source_prefixes": [
+        [
+          "scraped_unseen_foam",
+          35
+        ],
+        [
+          "scraped_unseen_clean",
+          26
+        ],
+        [
+          "scraped_unseen_algae",
+          20
+        ],
+        [
+          "scraped_unseen_turbid",
+          20
+        ],
+        [
+          "scraped_unseen_debris",
+          16
+        ],
+        [
+          "scraped_unseen_uncertain",
+          15
+        ],
+        [
+          "scraped_unseen_oil",
+          14
+        ]
+      ],
+      "images_in_multi_split_resolution_group": 0,
+      "megapixels_mean": 0.2025
+    }
+  }
+}

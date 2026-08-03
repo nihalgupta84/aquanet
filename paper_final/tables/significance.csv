@@ -1,0 +1,19 @@
+Compared with Swin-T,Metric,Delta,Wins,d_z,p,p_{mathrm{Holm}}
+EfficientNet-B0,macro-F1,+0.0385,5/5,5.16,0.0003,\textbf{0.0029}
+AquaNet-full,macro-F1,+0.0392,5/5,4.54,0.0005,\textbf{0.0043}
+MobileNetV2,macro-F1,+0.0628,5/5,4.04,0.0008,\textbf{0.0058}
+AquaNet-no-neck,macro-F1,+0.0352,5/5,3.29,0.0018,\textbf{0.0109}
+AquaNet-hier,macro-F1,+0.0337,5/5,1.69,0.0194,0.0971
+DenseNet-121,macro-F1,+0.0302,5/5,1.65,0.0209,0.0971
+DeiT-S,macro-F1,+0.0182,5/5,1.31,0.0433,0.1298
+ConvNeXt-T,macro-F1,+0.0202,5/5,1.22,0.0521,0.1298
+ResNet-50,macro-F1,+0.0255,4/5,1.15,0.0620,0.1298
+EfficientNet-B0,accuracy,+0.0319,5/5,5.42,0.0003,\textbf{0.0024}
+AquaNet-no-neck,accuracy,+0.0253,5/5,4.52,0.0005,\textbf{0.0043}
+MobileNetV2,accuracy,+0.0468,5/5,4.22,0.0007,\textbf{0.0049}
+AquaNet-full,accuracy,+0.0304,5/5,3.83,0.0010,\textbf{0.0061}
+AquaNet-hier,accuracy,+0.0244,5/5,1.75,0.0173,0.0867
+DenseNet-121,accuracy,+0.0220,4/5,1.31,0.0432,0.1729
+DeiT-S,accuracy,+0.0122,5/5,1.16,0.0609,0.1826
+ResNet-50,accuracy,+0.0197,4/5,0.97,0.0964,0.1928
+ConvNeXt-T,accuracy,+0.0122,4/5,0.88,0.1196,0.1928

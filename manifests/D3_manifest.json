@@ -1,0 +1,1170 @@
+[
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_000.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "5627fe335db3b03700c367b362866567",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_001.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "4178a6b5e8eca3018fcf995de1809203",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_002.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "61f796a1e29386aca059d6657a57bba5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_003.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "6670d99618f0f32a4de1d5d126352c56",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_004.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "b009c84e637066bbf369ae2dee7b7ea8",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_005.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "be772a6527f3a79d6ac56282446b3d06",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_006.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "b7d0080ae620abf0f34fbaf9c8bd49a4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_007.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "cc5a73889a59c0114e76bc238bd69fd1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_008.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "6e219d8f9efdb7cee4ce9b7ce342d5e4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_009.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "386a56b4a5a2ab2ec95b6c79fe80e60b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_010.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "607771c84eebc2f0926381c4f069849a",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_011.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "7800e2c1e50097ed18424f245deb4f7d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_012.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "d25f5d65395f16dbf8c6f694807d8f59",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_013.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "48fd78e8de59ce9219c211cfc7abb93c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_014.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "e40a86b0fd3dda9f0baa116f9c5db6e2",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_015.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "0a83e64f17e1f80677f84e23a603ab47",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_016.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "909d28651120f96086f8f3b7dd8fc574",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_017.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "8847b282cda756e79bb380810dace779",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_018.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "1203b70ef35d85f67934f99bc69e395d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_019.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "65ea327849cb28579e52eebc2e29109a",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_020.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "b449f69b64066c872e921247db8ccb37",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_021.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "abd0970b0b2a5dfe5fbd0ee763deee86",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_022.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "355300fe63a86d7b9f8ff723fd104e30",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_023.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "0b9df41ce9a2e9fa615d956344309919",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_024.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "1d023548ed26d85cd91e3984ad988221",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/clean/scraped_unseen_clean_025.jpg",
+  "split": "-",
+  "label": "clean",
+  "md5": "62f16a44adfaf1a97a3fdea4bc26463f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_000.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "4b9e60cc26e1adc074ac67b82822f241",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_001.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "12524364cb2c9c67a6d082af651c1773",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_002.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "0a18929b41245d992d38a2e5bcda665f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_003.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "612311b2af29433caedcc834055450b1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_004.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "0d62dd72d1674a377874153b4ac24bbd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_005.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "a1997385203030eb77e61773b889a7f3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_006.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "3ad8b4e7409b3c7ffde14d5ee44b105b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_007.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "671db583494349871780c31fe3b73619",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_008.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "748b1da9754f66a6221ae9d73cbbe0d6",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_009.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "581e6834347a6db779d28ec8013bd7df",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_010.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "b3a45b59e4c28d853965375babb36836",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_011.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "6fde79f7c0a2ee3ea7970e05653965ad",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_012.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "66f122e3c939b99e1fbc5271fa623d98",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_013.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "08253855ac25588bd6fbccde000115df",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_014.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "ef645f9a27b0e029abad02c0c4314745",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_015.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "c48b1a11dfae95b807ed0229dbc74995",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_016.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "401e84b5bc596469aa338d75fe814bca",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_017.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "ecab6f8f8b913f3b27868ef2a218be99",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_018.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "c8d8ae500a87bc0c3f6461e11ed8f532",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/algae/scraped_unseen_algae_019.jpg",
+  "split": "-",
+  "label": "algae",
+  "md5": "ca2aff0d7c084fe2621fe1b182526a03",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_000.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "0fd3d741a06165b2bd69a32ef23e7606",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_001.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "eddb4bc280d810cf95035ae74ba26f46",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_002.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "216980438ed679d6e9d1fb3759bc56e0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_003.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "60453362906142cf731fec1b546f5fd7",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_004.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "7c23416336cc76022fe1a4010439a216",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_005.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "e9647322506126cf9e529de1081b2f2b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_006.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "5d279ee021f75fa8b2a524a9e2ff66e3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_007.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "e6c173bd9b23177176edbfafbab9677c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_008.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "51b81f8d668d6cc617464b8d551bd04c",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_009.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "63f52bcb79ada7c38ed395fd47ba9ee4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_010.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "73e9330c0218a38cd59417b853f798b0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_011.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "9e7204e0dacc326312505717954d2751",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_012.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "d9b9250dee1a1fd655ac72e9ed4cebf1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_013.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "771cb2c7c5a02ec66b977883c4ab3fa4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_014.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "f3a96cd7eeb939bae32677b7471c1c48",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/debris/scraped_unseen_debris_015.jpg",
+  "split": "-",
+  "label": "debris",
+  "md5": "fb842c36fcb7a06d828292ada4d92edd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_000.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "d111c64ff3a37043a992eb4d1bbb284e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_001.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "202f5295f88d5a5df5779b5eac39dda4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_002.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "6bb915e4a0e72dcda8bfcca6004d585e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_003.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "595001c9704e1436f525cb4cc049c2bb",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_004.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "88f5ba62ebe4ee5af6f47f6ebd4ef0b1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_005.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "ac27b6cc2c51b80558dfbc1d9b2c4883",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_006.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "bb273c75fc657047f11fe8b884db01d8",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_007.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "746840255cccfdbf22df2fde5bba7126",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_008.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "1ff492ff5828083e8c16265d42dbaa31",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_009.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "e8661d4c19d1fe273e655a108ae2ffca",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_010.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "419f1449ce004644812328475a144f37",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_011.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "025a5cd6ed7d23806e1f7c9944395ac3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_012.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "4454c92bb2703f01fcff1597762ace3d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_013.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "393a5e72310af6d57096b0d1766d1217",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_014.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "7f8a4a0ecefb05cdc9aa3e2862f9c591",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_015.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "78de27a56367842948ae1ea20e8938f8",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_016.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "e7bfd75728779a3ce5cd6d23760ba091",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_017.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "81bf7423803484dea5aedacc0ecea1a0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_018.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "22ddced0e30ca0da244c4d5b789d63fa",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_019.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "631de463513988881e35c0633125c7c0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_020.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "a7bf75560a83e1e335e943b76640aaca",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_021.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "f0b9d1f61b0d6427752056439aa98111",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_022.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "c836db17c30be2d4b2462ff3a6f90bbc",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_023.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "6dbf1431aa3ede0a933ef5822dfa8e87",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_024.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "83ddec5a09f47ad45b55393cda8d3652",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_025.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "36209ea7cee84fd3a632fe92f2db36fc",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_026.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "bc78b470ca5f212a1cb02cd182003a92",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_027.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "7111a27cad5962af2aa62e7e3c795b15",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_028.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "baa63ae9f6b8e5fe31b3eae893d3eb77",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_029.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "0b9b278d02e2c8ae4a337e3e119a1578",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_030.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "8c917747f75bbf2e12f2fb2953c75304",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_031.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "21e61db160f4188d20ac118a9ec790ee",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_032.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "366307d937092c449022357c4949636f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_033.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "3391ea54c2f86de144e58f54e60e790f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/foam/scraped_unseen_foam_034.jpg",
+  "split": "-",
+  "label": "foam",
+  "md5": "b99ffe69522b05ae78f481cb765af195",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_000.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "4eb2bd28998490347a1039e7ca8344d7",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_001.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "f9d9b960245af91a459ba7acd645583b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_002.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "b434fd7e7476a0fcbbcfaf7f986af235",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_003.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "81f6a6347a14f612d45d52001882a318",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_004.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "5b5ca873324376615b1bcfe4b44a5671",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_005.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "37e6c93a357c48f019958f6e029e61b2",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_006.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "d454be73264d1c61f87d3d0ea34b459a",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_007.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "c758a24959ea4e013704dbed474eeb27",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_008.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "e10fb94962e4cf1a4b7ad04909477872",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_009.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "d286c0483b8d6a4589f68dadcb7a3e29",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_010.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "d2159158bf5e9e2b4cee7dfbdf4992ac",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_011.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "11a8c892be53398dae7a109ea64fe5a0",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_012.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "aed3a961351fe5099da8f701e9719092",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/oil/scraped_unseen_oil_013.jpg",
+  "split": "-",
+  "label": "oil",
+  "md5": "10de117f3c89d559915cbd45812d7c64",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_000.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "ecd7dab81bb12ecf92a83f6cbe726979",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_001.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "592d954c6d46acebe029e34aa23a8cd3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_002.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "e0bca37c4e980c0d4e80bd191da3d60d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_003.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "b419c0114caa1157c022a78bad701228",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_004.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "92df3fd57f111faf3df6aab518d0bed8",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_005.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "9e106482dbffd4a063671c69a74dd675",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_006.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "7c03d04d3a6bcf7495fe0d1827786974",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_007.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "df05a08ce5e5eacd2d1cd0e5c756a375",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_008.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "49206dddc43125653a553612b4e894c2",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_009.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "e5236367b5cdd775b99afb11038f9858",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_010.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "54ab908ee0b07c09035edd13c8a67769",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_011.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "ac8ae4bf1e77f3c071b98a1b2f2bc038",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_012.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "c608ba690bb06d06ee60208db4b1f64f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_013.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "b436eada9465e9cc390ebdf57ea1e58b",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_014.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "243d1b369e154bb7c207cb9717a90756",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_015.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "87788069422edecda63cbe5d0ef1bc86",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_016.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "c001e4463f89fad5238f631ec762006f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_017.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "a23eff9acea62b8d5e5ba9b8aee4aec3",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_018.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "90170ce07765e6ef73a80fee09edc366",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/turbid/scraped_unseen_turbid_019.jpg",
+  "split": "-",
+  "label": "turbid",
+  "md5": "00006c48a84203d55636a55a107a07e4",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_000.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "eff8bbe19f3d6045e73a5d32e5ada5a5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_001.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "21bcc1dd285d747298ce987036e277e6",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_002.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "58842c1bbea1647eddb2eebed91f553e",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_003.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "ded15159ada433b101603b8a4774c350",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_004.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "09836f0e03a525455bb9d3fc0414d5e5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_005.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "24be7fb4a0fe0431c4c76463e062967f",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_006.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "843c9f60243a8821ef9a2e2528dfefbd",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_007.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "e458f964bc392c0c802caface8f04212",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_008.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "d01899c4de016d6879a23a2771812b94",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_009.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "dbd97b9c8fcb304c2574ba22caf7013d",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_010.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "870368e43b9493ce9b2738a6351927d1",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_011.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "f70761594eb41b0be7a1882f7e730cf5",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_012.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "3287349977b1571102ac7a4f830c81dc",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_013.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "1be96b7a90f4d12de506a4bc370c9e27",
+  "w": 450,
+  "h": 450
+ },
+ {
+  "path": "data/cleaned_scrapper_unseen_test/contaminated/uncertain/scraped_unseen_uncertain_014.jpg",
+  "split": "-",
+  "label": "uncertain",
+  "md5": "4691d84b38986afa650585b652d43966",
+  "w": 450,
+  "h": 450
+ }
+]

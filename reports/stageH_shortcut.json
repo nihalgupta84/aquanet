@@ -1,0 +1,201 @@
+{
+  "_meta": {
+    "classes": [
+      "clean",
+      "algae",
+      "debris",
+      "foam",
+      "oil",
+      "turbid",
+      "uncertain"
+    ],
+    "n_train": 1956,
+    "n_test": 427,
+    "note": "The metadata probe never sees pixel content. Its margin over the majority baseline measures how far source identity alone predicts the label on this dataset. All models share these splits, so the relative ranking reported in the paper is unaffected; absolute accuracy is not transferable to a field deployment."
+  },
+  "majority_baseline": {
+    "strategy": "always predict \"algae\" (most frequent training class)",
+    "accuracy": 0.351288056206089,
+    "macro_f1": 0.07427581084426839
+  },
+  "probes": {
+    "metadata_only": {
+      "probe": "metadata_only",
+      "n_features": 8,
+      "accuracy_mean": 0.6918032786885246,
+      "accuracy_sd": 0.001282722617108119,
+      "macro_f1_mean": 0.5821703792346582,
+      "macro_f1_sd": 0.0022277541965867198,
+      "per_class_f1": {
+        "clean": 0.5194805194805194,
+        "algae": 0.96,
+        "debris": 0.38202247191011235,
+        "foam": 0.4266666666666667,
+        "oil": 0.4888888888888889,
+        "turbid": 0.5040650406504065,
+        "uncertain": 0.7724137931034483
+      },
+      "confusion_matrix_seed42": [
+        [
+          20,
+          2,
+          5,
+          0,
+          1,
+          8,
+          5
+        ],
+        [
+          2,
+          144,
+          0,
+          1,
+          0,
+          1,
+          2
+        ],
+        [
+          7,
+          0,
+          17,
+          5,
+          1,
+          17,
+          1
+        ],
+        [
+          2,
+          1,
+          9,
+          16,
+          3,
+          9,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          11,
+          2,
+          11
+        ],
+        [
+          1,
+          2,
+          8,
+          11,
+          1,
+          31,
+          0
+        ],
+        [
+          4,
+          1,
+          2,
+          2,
+          4,
+          1,
+          56
+        ]
+      ],
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ]
+    },
+    "mean_colour_only": {
+      "probe": "mean_colour_only",
+      "n_features": 6,
+      "accuracy_mean": 0.7189695550351288,
+      "accuracy_sd": 0.0033119755559088914,
+      "macro_f1_mean": 0.6099192666763268,
+      "macro_f1_sd": 0.006442674247274241,
+      "per_class_f1": {
+        "clean": 0.475,
+        "algae": 0.9466666666666667,
+        "debris": 0.594059405940594,
+        "foam": 0.5897435897435898,
+        "oil": 0.35,
+        "turbid": 0.7130434782608696,
+        "uncertain": 0.6428571428571429
+      },
+      "confusion_matrix_seed42": [
+        [
+          19,
+          1,
+          5,
+          1,
+          3,
+          2,
+          10
+        ],
+        [
+          2,
+          142,
+          2,
+          1,
+          0,
+          2,
+          1
+        ],
+        [
+          3,
+          1,
+          30,
+          5,
+          0,
+          8,
+          1
+        ],
+        [
+          1,
+          4,
+          7,
+          23,
+          0,
+          3,
+          2
+        ],
+        [
+          3,
+          0,
+          1,
+          2,
+          7,
+          2,
+          9
+        ],
+        [
+          1,
+          1,
+          4,
+          5,
+          0,
+          41,
+          2
+        ],
+        [
+          10,
+          1,
+          4,
+          1,
+          6,
+          3,
+          45
+        ]
+      ],
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ]
+    }
+  }
+}

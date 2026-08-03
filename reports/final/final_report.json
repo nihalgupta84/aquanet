@@ -20,8 +20,8 @@
       "test_macro_f1_mean": 0.9053017819241674,
       "test_macro_f1_sd": 0.009443357666952791,
       "test_macro_f1_ci95": [
-        0.8935763046869506,
-        0.9170272591613843
+        0.8935763046869507,
+        0.9170272591613842
       ],
       "ece_mean": 0.052781598269939424,
       "params_m": 27.524737
@@ -66,8 +66,8 @@
       "test_acc_mean": 0.9161592505854801,
       "test_acc_sd": 0.007103396200516683,
       "test_acc_ci95": [
-        0.9073392192583211,
-        0.9249792819126391
+        0.9073392192583212,
+        0.924979281912639
       ],
       "test_macro_f1_mean": 0.8851289274011627,
       "test_macro_f1_sd": 0.01020363431680439,
@@ -118,8 +118,8 @@
       "test_acc_mean": 0.9063231850117095,
       "test_acc_sd": 0.011591914445681119,
       "test_acc_ci95": [
-        0.891929922174249,
-        0.92071644784917
+        0.8919299221742492,
+        0.9207164478491698
       ],
       "test_macro_f1_mean": 0.8750954631270386,
       "test_macro_f1_sd": 0.01397765970629059,
@@ -222,14 +222,14 @@
       "test_acc_mean": 0.8978922716627634,
       "test_acc_sd": 0.012891202758335269,
       "test_acc_ci95": [
-        0.8818857293041934,
-        0.9138988140213334
+        0.8818857293041935,
+        0.9138988140213333
       ],
       "test_macro_f1_mean": 0.8660613793475751,
       "test_macro_f1_sd": 0.016524020646373365,
       "test_macro_f1_ci95": [
-        0.8455440978053975,
-        0.8865786608897527
+        0.8455440978053976,
+        0.8865786608897526
       ],
       "ece_mean": 0.0697222575545311,
       "params_m": 10.533104
@@ -248,8 +248,8 @@
       "test_acc_mean": 0.8814988290398127,
       "test_acc_sd": 0.015935387200191116,
       "test_acc_ci95": [
-        0.8617124324558982,
-        0.9012852256237271
+        0.8617124324558983,
+        0.901285225623727
       ],
       "test_macro_f1_mean": 0.842490786098155,
       "test_macro_f1_sd": 0.020510596324464166,
@@ -276,11 +276,14 @@
       ],
       "mean_diff": 0.012177985948477766,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 1.1569848146739605,
       "paired_t_p": 0.060869944096594755,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.3025718288630532
+      "paired_t_p_holm": 0.18260983228978428,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "deit_small",
@@ -295,11 +298,36 @@
       ],
       "mean_diff": 0.01824729387125208,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 1.30550267615019,
       "paired_t_p": 0.043278370025173596,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.3025718288630532
+      "paired_t_p_holm": 0.1298351100755208,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "deit_small",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": -0.00932679995894432,
+      "wins": 4,
+      "lower_is_better": true,
+      "favours": "selected",
+      "cohens_dz": -1.0645930226417073,
+      "paired_t_p": 0.07594775537535453,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.31136331765707775,
+      "holm_family": "ece_15bin (9 comparisons)"
     },
     {
       "vs": "convnext_tiny",
@@ -314,11 +342,14 @@
       ],
       "mean_diff": 0.012177985948477766,
       "wins": 4,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 0.8827517887045572,
-      "paired_t_p": 0.11963495117254036,
+      "paired_t_p": 0.11963495117254042,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.3025718288630532
+      "paired_t_p_holm": 0.19279387577828055,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "convnext_tiny",
@@ -333,11 +364,36 @@
       ],
       "mean_diff": 0.020172854523004567,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 1.2238783834487383,
-      "paired_t_p": 0.05208349848205348,
+      "paired_t_p": 0.052083498482053486,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.3025718288630532
+      "paired_t_p_holm": 0.1298351100755208,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "convnext_tiny",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": -0.007699532806873322,
+      "wins": 3,
+      "lower_is_better": true,
+      "favours": "selected",
+      "cohens_dz": -0.4094052619362101,
+      "paired_t_p": 0.4117469106048654,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.6869895087591352,
+      "holm_family": "ece_15bin (9 comparisons)"
     },
     {
       "vs": "resnet50",
@@ -352,11 +408,14 @@
       ],
       "mean_diff": 0.019672131147541006,
       "wins": 4,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 0.9680143556934915,
       "paired_t_p": 0.09639693788914028,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.3025718288630532
+      "paired_t_p_holm": 0.19279387577828055,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "resnet50",
@@ -371,11 +430,36 @@
       ],
       "mean_diff": 0.02553983925517298,
       "wins": 4,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 1.1491168219061951,
-      "paired_t_p": 0.06201134072618104,
+      "paired_t_p": 0.06201134072618106,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.3025718288630532
+      "paired_t_p_holm": 0.1298351100755208,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "resnet50",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": -0.01156519204378128,
+      "wins": 4,
+      "lower_is_better": true,
+      "favours": "selected",
+      "cohens_dz": -0.8109112192881485,
+      "paired_t_p": 0.14400175749928365,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.4320052724978509,
+      "holm_family": "ece_15bin (9 comparisons)"
     },
     {
       "vs": "densenet121",
@@ -390,11 +474,14 @@
       ],
       "mean_diff": 0.02201405152224827,
       "wins": 4,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 1.3060595337853118,
       "paired_t_p": 0.04322454698043618,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.3025718288630532
+      "paired_t_p_holm": 0.17289818792174472,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "densenet121",
@@ -409,11 +496,36 @@
       ],
       "mean_diff": 0.030206318797128828,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 1.6540191178187782,
-      "paired_t_p": 0.020862817479005525,
+      "paired_t_p": 0.020862817479005515,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.17479389618846267
+      "paired_t_p_holm": 0.09710772010470148,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "densenet121",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": -0.007505985349416733,
+      "wins": 4,
+      "lower_is_better": true,
+      "favours": "selected",
+      "cohens_dz": -0.48008186392217683,
+      "paired_t_p": 0.3434947543795676,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.6869895087591352,
+      "holm_family": "ece_15bin (9 comparisons)"
     },
     {
       "vs": "aquanet[hier_tf,msrb=on,csab=off]",
@@ -428,11 +540,14 @@
       ],
       "mean_diff": 0.02435597189695553,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 1.7504349924774465,
-      "paired_t_p": 0.01733385601404594,
+      "paired_t_p": 0.01733385601404593,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.1733385601404594
+      "paired_t_p_holm": 0.08666928007022964,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "aquanet[hier_tf,msrb=on,csab=off]",
@@ -447,11 +562,36 @@
       ],
       "mean_diff": 0.03368622331088082,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 1.6908476806082338,
       "paired_t_p": 0.019421544020940297,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.17479389618846267
+      "paired_t_p_holm": 0.09710772010470148,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "aquanet[hier_tf,msrb=on,csab=off]",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": -0.016413144767284393,
+      "wins": 5,
+      "lower_is_better": true,
+      "favours": "selected",
+      "cohens_dz": -2.755023224865306,
+      "paired_t_p": 0.0035239185195087576,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.024667429636561305,
+      "holm_family": "ece_15bin (9 comparisons)"
     },
     {
       "vs": "aquanet[flat,msrb=off,csab=off]",
@@ -466,11 +606,14 @@
       ],
       "mean_diff": 0.025292740046838437,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 4.523622209550312,
-      "paired_t_p": 0.0005376321127227986,
+      "paired_t_p": 0.0005376321127227985,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.008506011603447269
+      "paired_t_p_holm": 0.004301056901782388,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "aquanet[flat,msrb=off,csab=off]",
@@ -485,11 +628,36 @@
       ],
       "mean_diff": 0.035230356485063674,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 3.292975217744452,
-      "paired_t_p": 0.0018124171521572282,
+      "paired_t_p": 0.001812417152157227,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.01993658867372951
+      "paired_t_p_holm": 0.010874502912943361,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "aquanet[flat,msrb=off,csab=off]",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": 0.013080358877778054,
+      "wins": 1,
+      "lower_is_better": true,
+      "favours": "other",
+      "cohens_dz": 1.147338790484997,
+      "paired_t_p": 0.06227266353141555,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.31136331765707775,
+      "holm_family": "ece_15bin (9 comparisons)"
     },
     {
       "vs": "efficientnet_b0",
@@ -504,11 +672,14 @@
       ],
       "mean_diff": 0.031850117096018773,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 5.418369695649251,
-      "paired_t_p": 0.0002662356168207998,
+      "paired_t_p": 0.0002662356168207996,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.004792241102774397
+      "paired_t_p_holm": 0.002396120551387196,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "efficientnet_b0",
@@ -523,11 +694,36 @@
       ],
       "mean_diff": 0.03846184590242718,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 5.16469041197178,
-      "paired_t_p": 0.0003210933599333169,
+      "paired_t_p": 0.000321093359933317,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.005458587118866388
+      "paired_t_p_holm": 0.0028898402393998527,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "efficientnet_b0",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": -0.024031524360179902,
+      "wins": 5,
+      "lower_is_better": true,
+      "favours": "selected",
+      "cohens_dz": -3.399958116638178,
+      "paired_t_p": 0.0016062520850988497,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.012850016680790798,
+      "holm_family": "ece_15bin (9 comparisons)"
     },
     {
       "vs": "aquanet[flat,msrb=on,csab=on]",
@@ -542,11 +738,14 @@
       ],
       "mean_diff": 0.030444964871194413,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 3.8334908600273256,
       "paired_t_p": 0.0010172383354230617,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.01220686002507674
+      "paired_t_p_holm": 0.00610343001253837,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "aquanet[flat,msrb=on,csab=on]",
@@ -561,11 +760,36 @@
       ],
       "mean_diff": 0.03924040257659236,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 4.536757489581882,
-      "paired_t_p": 0.0005316257252154543,
+      "paired_t_p": 0.0005316257252154541,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.008506011603447269
+      "paired_t_p_holm": 0.004253005801723633,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "aquanet[flat,msrb=on,csab=on]",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": -0.016940659284591673,
+      "wins": 5,
+      "lower_is_better": true,
+      "favours": "selected",
+      "cohens_dz": -1.317864882971919,
+      "paired_t_p": 0.04210167197330054,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.25261003183980324,
+      "holm_family": "ece_15bin (9 comparisons)"
     },
     {
       "vs": "mobilenetv2",
@@ -580,11 +804,14 @@
       ],
       "mean_diff": 0.04683840749414525,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 4.216370213557839,
-      "paired_t_p": 0.0007056129425387872,
+      "paired_t_p": 0.0007056129425387876,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.009878581195543022
+      "paired_t_p_holm": 0.004939290597771513,
+      "holm_family": "accuracy (9 comparisons)"
     },
     {
       "vs": "mobilenetv2",
@@ -599,11 +826,36 @@
       ],
       "mean_diff": 0.06281099582601242,
       "wins": 5,
+      "lower_is_better": false,
+      "favours": "selected",
       "cohens_dz": 4.038827784390601,
-      "paired_t_p": 0.0008327211557896158,
+      "paired_t_p": 0.0008327211557896162,
       "wilcoxon_p": null,
       "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
-      "paired_t_p_holm": 0.010825375025265005
+      "paired_t_p_holm": 0.005829048090527313,
+      "holm_family": "macro_f1 (9 comparisons)"
+    },
+    {
+      "vs": "mobilenetv2",
+      "metric": "ece_15bin",
+      "n_seeds": 5,
+      "seeds": [
+        7,
+        21,
+        42,
+        1337,
+        2024
+      ],
+      "mean_diff": -0.03554679304361343,
+      "wins": 5,
+      "lower_is_better": true,
+      "favours": "selected",
+      "cohens_dz": -4.328880405752787,
+      "paired_t_p": 0.0006374159754740377,
+      "wilcoxon_p": null,
+      "wilcoxon_note": "not reportable at n=5; min attainable two-sided p is 0.062",
+      "paired_t_p_holm": 0.00573674377926634,
+      "holm_family": "ece_15bin (9 comparisons)"
     }
   ],
   "prediction_level_tests": [
@@ -636,7 +888,7 @@
       },
       "bootstrap": {
         "metric": "macro_f1",
-        "mean_diff": 0.0017431306714988043,
+        "mean_diff": 0.001743130671498804,
         "ci95": [
           -0.02287610884729853,
           0.026665864550944

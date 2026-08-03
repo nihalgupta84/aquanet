@@ -1,0 +1,11 @@
+Model,Deletion AUC,Insertion AUC,Gap
+AquaNet-hier,.7739,.9044,.1305
+ResNet-50,.7747,.8914,.1167
+EfficientNet-B0,.7845,.8824,.0979
+MobileNetV2,.7857,.8695,.0837
+AquaNet-no-neck,.7934,.9004,.1071
+DenseNet-121,.8088,.8973,.0886
+AquaNet-full,.8304,.8844,.0540
+ConvNeXt-T,.8839,.9075,.0236
+Swin-T,.8939,.9138,.0198
+DeiT-S,.9042,.9049,.0007
